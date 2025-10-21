@@ -1,4 +1,4 @@
-﻿# Завжди зберігати LF для shell/Unix-конфігів
+# Always keep LF for shell/Unix configs
 *.sh     text eol=lf
 *.conf   text eol=lf
 *.spl    text eol=lf
