@@ -6,7 +6,7 @@ USER="invaliduser"
 
 for (( i=1; i<=ATTEMPTS; i++ )); do
   MSG="sshd[$$]: Failed password for invalid user ${USER} from ${IP} port $((1024 + RANDOM % 40000)) ssh2"
-  logger -t sshd "$MSG"
+  logger -p authpriv.notice -t sshd "$MSG"
   sleep 0.2
 done
 
