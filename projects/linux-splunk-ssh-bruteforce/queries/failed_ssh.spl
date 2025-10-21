@@ -1,0 +1,4 @@
+﻿index=linux_auth sourcetype=linux_secure "Failed password"
+| rex "Failed password for (?:invalid user )?(?<user>\S+) from (?<src_ip>\d+\.\d+\.\d+\.\d+) port (?<port>\d+)"
+| stats count as failed_count earliest(_time) as first_seen latest(_time) as last_seen by src_ip
+| where failed_count >= 5
