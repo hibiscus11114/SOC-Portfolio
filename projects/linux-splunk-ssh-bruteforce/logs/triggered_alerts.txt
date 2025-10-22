@@ -1,0 +1,79 @@
+
+========================================
+Name: Bucket Merge Retrieve Conf Settings
+Scheduled: false
+Cron: 
+Actions: 
+Search:
+| rest services/data/indexes datatype=all 
+| search disabled!=1 AND bucketMerging=1 
+| dedup title 
+| fields title bucketMerging bucketMerge.minMergeSizeMB bucketMerge.maxMergeSizeMB bucketMerge.maxMergeTimeSpanSecs bucketMerge.minMergeCount bucketMerge.maxMergeCount
+
+
+========================================
+Name: Errors in the last 24 hours
+Scheduled: false
+Cron: 
+Actions: 
+Search:
+error OR failed OR severe OR ( sourcetype=access_* ( 404 OR 500 OR 503 ) )
+
+
+========================================
+Name: Errors in the last hour
+Scheduled: false
+Cron: 
+Actions: 
+Search:
+error OR failed OR severe OR ( sourcetype=access_* ( 404 OR 500 OR 503 ) )
+
+
+========================================
+Name: Failed SSH brute-force (PoC)
+Scheduled: true
+Cron: */5 * * * *
+Actions: addtotriggeredalerts, logevent
+Search:
+index=linux_auth sourcetype=linux_secure "Failed password" | rex "Failed password for (?:invalid user )?(?<user>\S+) from (?<src_ip>\d+\.\d+\.\d+\.\d+) port (?<port>\d+)" | stats count as failed_count earliest(_time) as first_seen latest(_time) as last_seen by src_ip | where failed_count >= 5
+
+
+========================================
+Name: License Usage Data Cube
+Scheduled: false
+Cron: 
+Actions: 
+Search:
+index=_internal source=*license_usage.log* type="Usage" | eval h=if(len(h)=0 OR isnull(h),"(SQUASHED)",h) | eval s=if(len(s)=0 OR isnull(s),"(SQUASHED)",s) | eval idx=if(len(idx)=0 OR isnull(idx),"(UNKNOWN)",idx) | bin _time span=1d | stats sum(b) as b by _time, pool, s, st, h, idx
+
+
+========================================
+Name: Messages by minute last 3 hours
+Scheduled: false
+Cron: 
+Actions: 
+Search:
+index=_internal source="*metrics.log" eps "group=per_source_thruput" NOT filetracker | eval events=eps*kb/kbps | timechart fixedrange=t span=1m limit=5 sum(events) by series
+
+
+========================================
+Name: Orphaned scheduled searches
+Scheduled: false
+Cron: 
+Actions: 
+Search:
+| rest timeout=600 splunk_server=local /servicesNS/-/-/saved/searches add_orphan_field=yes count=0 
+| search orphan=1 disabled=0 is_scheduled=1 
+| eval status = if(disabled = 0, "enabled", "disabled") 
+| fields title eai:acl.owner eai:acl.app eai:acl.sharing orphan status is_scheduled cron_schedule next_scheduled_time next_scheduled_time actions 
+| rename title AS "search name" eai:acl.owner AS owner eai:acl.app AS app eai:acl.sharing AS sharing
+
+
+========================================
+Name: Splunk errors last 24 hours
+Scheduled: false
+Cron: 
+Actions: 
+Search:
+index=_internal " error " NOT debug source=*splunkd.log*
+

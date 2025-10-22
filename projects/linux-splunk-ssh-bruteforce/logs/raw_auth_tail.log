@@ -1,0 +1,50 @@
+2025-10-21T18:10:30.344287+00:00 ubuntu-soc sudo: pam_unix(sudo:session): session opened for user root(uid=0) by adminsoc(uid=1000)
+2025-10-21T18:10:30.344508+00:00 ubuntu-soc sudo: pam_unix(sudo:session): session closed for user root
+2025-10-21T18:14:33.241208+00:00 ubuntu-soc sudo: adminsoc : TTY=pts/0 ; PWD=/media/sf_linuxshared ; USER=root ; COMMAND=/opt/splunk/bin/splunk start
+2025-10-21T18:14:33.244116+00:00 ubuntu-soc sudo: pam_unix(sudo:session): session opened for user root(uid=0) by adminsoc(uid=1000)
+2025-10-21T18:14:47.830246+00:00 ubuntu-soc mongod: looking for plugins in '/home/build/build-home/opt/mongo/openssl3/lib/sasl2', failed to open directory, error: No such file or directory
+2025-10-21T18:14:47.831052+00:00 ubuntu-soc mongod: looking for plugins in '/home/build/build-home/opt/mongo/openssl3/lib/sasl2', failed to open directory, error: No such file or directory
+2025-10-21T18:14:53.914405+00:00 ubuntu-soc sudo: pam_unix(sudo:session): session closed for user root
+2025-10-21T18:15:01.346659+00:00 ubuntu-soc CRON[36284]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-10-21T18:15:01.349084+00:00 ubuntu-soc CRON[36284]: pam_unix(cron:session): session closed for user root
+2025-10-21T18:15:27.904368+00:00 ubuntu-soc sudo: adminsoc : TTY=pts/0 ; PWD=/media/sf_linuxshared ; USER=root ; COMMAND=/usr/bin/cat /var/log/auth.log
+2025-10-21T18:15:27.906344+00:00 ubuntu-soc sudo: pam_unix(sudo:session): session opened for user root(uid=0) by adminsoc(uid=1000)
+2025-10-21T18:15:27.909154+00:00 ubuntu-soc sudo: pam_unix(sudo:session): session closed for user root
+2025-10-21T18:17:01.363390+00:00 ubuntu-soc CRON[36900]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-10-21T18:17:01.368256+00:00 ubuntu-soc CRON[36900]: pam_unix(cron:session): session closed for user root
+2025-10-21T18:17:20.440486+00:00 ubuntu-soc sudo: adminsoc : TTY=pts/0 ; PWD=/media/sf_linuxshared ; USER=root ; COMMAND=/usr/bin/bash simulate_bruteforce.sh 20 192.0.2.123
+2025-10-21T18:17:20.441351+00:00 ubuntu-soc sudo: pam_unix(sudo:session): session opened for user root(uid=0) by adminsoc(uid=1000)
+2025-10-21T18:17:20.460143+00:00 ubuntu-soc sshd: sshd[36929]: Failed password for invalid user invaliduser from 192.0.2.123 port 23199 ssh2
+2025-10-21T18:17:20.667403+00:00 ubuntu-soc sshd: sshd[36929]: Failed password for invalid user invaliduser from 192.0.2.123 port 20116 ssh2
+2025-10-21T18:17:20.877469+00:00 ubuntu-soc sshd: sshd[36929]: Failed password for invalid user invaliduser from 192.0.2.123 port 7169 ssh2
+2025-10-21T18:17:21.083138+00:00 ubuntu-soc sshd: sshd[36929]: Failed password for invalid user invaliduser from 192.0.2.123 port 4575 ssh2
+2025-10-21T18:17:21.297071+00:00 ubuntu-soc sshd: sshd[36929]: Failed password for invalid user invaliduser from 192.0.2.123 port 20774 ssh2
+2025-10-21T18:17:21.502702+00:00 ubuntu-soc sshd: sshd[36929]: Failed password for invalid user invaliduser from 192.0.2.123 port 1450 ssh2
+2025-10-21T18:17:21.707596+00:00 ubuntu-soc sshd: sshd[36929]: Failed password for invalid user invaliduser from 192.0.2.123 port 15622 ssh2
+2025-10-21T18:17:21.915162+00:00 ubuntu-soc sshd: sshd[36929]: Failed password for invalid user invaliduser from 192.0.2.123 port 18438 ssh2
+2025-10-21T18:17:22.121527+00:00 ubuntu-soc sshd: sshd[36929]: Failed password for invalid user invaliduser from 192.0.2.123 port 6313 ssh2
+2025-10-21T18:17:22.399261+00:00 ubuntu-soc sshd: sshd[36929]: Failed password for invalid user invaliduser from 192.0.2.123 port 17863 ssh2
+2025-10-21T18:17:22.613527+00:00 ubuntu-soc sshd: sshd[36929]: Failed password for invalid user invaliduser from 192.0.2.123 port 20317 ssh2
+2025-10-21T18:17:22.821883+00:00 ubuntu-soc sshd: sshd[36929]: Failed password for invalid user invaliduser from 192.0.2.123 port 28863 ssh2
+2025-10-21T18:17:23.032911+00:00 ubuntu-soc sshd: sshd[36929]: Failed password for invalid user invaliduser from 192.0.2.123 port 26603 ssh2
+2025-10-21T18:17:23.237967+00:00 ubuntu-soc sshd: sshd[36929]: Failed password for invalid user invaliduser from 192.0.2.123 port 21870 ssh2
+2025-10-21T18:17:23.460531+00:00 ubuntu-soc sshd: sshd[36929]: Failed password for invalid user invaliduser from 192.0.2.123 port 29348 ssh2
+2025-10-21T18:17:23.668711+00:00 ubuntu-soc sshd: sshd[36929]: Failed password for invalid user invaliduser from 192.0.2.123 port 8074 ssh2
+2025-10-21T18:17:23.881289+00:00 ubuntu-soc sshd: sshd[36929]: Failed password for invalid user invaliduser from 192.0.2.123 port 25753 ssh2
+2025-10-21T18:17:24.087657+00:00 ubuntu-soc sshd: sshd[36929]: Failed password for invalid user invaliduser from 192.0.2.123 port 4236 ssh2
+2025-10-21T18:17:24.306142+00:00 ubuntu-soc sshd: sshd[36929]: Failed password for invalid user invaliduser from 192.0.2.123 port 27537 ssh2
+2025-10-21T18:17:24.515511+00:00 ubuntu-soc sshd: sshd[36929]: Failed password for invalid user invaliduser from 192.0.2.123 port 31848 ssh2
+2025-10-21T18:17:24.721238+00:00 ubuntu-soc sudo: pam_unix(sudo:session): session closed for user root
+2025-10-21T18:19:50.688249+00:00 ubuntu-soc sudo: adminsoc : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/tail -n 30 /var/log/auth.log
+2025-10-21T18:19:50.691007+00:00 ubuntu-soc sudo: pam_unix(sudo:session): session opened for user root(uid=0) by adminsoc(uid=1000)
+2025-10-21T18:19:50.693962+00:00 ubuntu-soc sudo: pam_unix(sudo:session): session closed for user root
+2025-10-21T18:25:01.403071+00:00 ubuntu-soc CRON[37737]: pam_unix(cron:session): session opened for user root(uid=0) by root(uid=0)
+2025-10-21T18:25:01.409954+00:00 ubuntu-soc CRON[37737]: pam_unix(cron:session): session closed for user root
+2025-10-21T18:25:10.423468+00:00 ubuntu-soc sudo: adminsoc : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/grep 'Failed password' /var/log/auth.log
+2025-10-21T18:25:10.429853+00:00 ubuntu-soc sudo: pam_unix(sudo:session): session opened for user root(uid=0) by adminsoc(uid=1000)
+2025-10-21T18:25:10.430086+00:00 ubuntu-soc sudo: pam_unix(sudo:session): session closed for user root
+2025-10-21T18:25:35.180325+00:00 ubuntu-soc sudo: adminsoc : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/cat /media/sf_linuxshared/sample_auth.log
+2025-10-21T18:25:35.181048+00:00 ubuntu-soc sudo: pam_unix(sudo:session): session opened for user root(uid=0) by adminsoc(uid=1000)
+2025-10-21T18:25:35.185227+00:00 ubuntu-soc sudo: pam_unix(sudo:session): session closed for user root
+2025-10-21T18:27:47.470969+00:00 ubuntu-soc sudo: adminsoc : TTY=pts/0 ; PWD=/ ; USER=root ; COMMAND=/usr/bin/tail -n 500 /var/log/auth.log
+2025-10-21T18:27:47.471845+00:00 ubuntu-soc sudo: pam_unix(sudo:session): session opened for user root(uid=0) by adminsoc(uid=1000)

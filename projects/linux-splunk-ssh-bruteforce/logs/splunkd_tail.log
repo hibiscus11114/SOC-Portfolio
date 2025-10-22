@@ -1,0 +1,500 @@
+10-21-2025 18:14:50.337 +0000 INFO  LoggedOutSessionManager [35540 KVStoreConfigurationThread] - Not enabling token invalidation. kvstore_enabled=1 kvstore_status=ready invalidateSessionTokensOnLogout=0
+10-21-2025 18:14:50.337 +0000 INFO  CertStorageProvider [35540 KVStoreConfigurationThread] - Updating status from ready to ready
+10-21-2025 18:14:50.337 +0000 INFO  Rsa2FA [35540 KVStoreConfigurationThread] - Could not find [externalTwoFactorAuthSettings] in authentication stanza.
+10-21-2025 18:14:50.337 +0000 INFO  CertStorageProvider [35540 KVStoreConfigurationThread] - Updating status from starting to ready
+10-21-2025 18:14:50.467 +0000 ERROR HttpClientRequest [35667 WebuiStartup] - HTTP client error=Connection refused while accessing server=http://127.0.0.1:8065 for request=http://127.0.0.1:8065/favicon.ico.
+10-21-2025 18:14:50.467 +0000 WARN  HttpClientRequest [35667 WebuiStartup] - Returning error HTTP/1.1 502 Connection refused
+10-21-2025 18:14:50.668 +0000 ERROR HttpClientRequest [35667 WebuiStartup] - HTTP client error=Connection refused while accessing server=http://127.0.0.1:8065 for request=http://127.0.0.1:8065/favicon.ico.
+10-21-2025 18:14:50.668 +0000 WARN  HttpClientRequest [35667 WebuiStartup] - Returning error HTTP/1.1 502 Connection refused
+10-21-2025 18:14:50.869 +0000 ERROR HttpClientRequest [35667 WebuiStartup] - HTTP client error=Connection refused while accessing server=http://127.0.0.1:8065 for request=http://127.0.0.1:8065/favicon.ico.
+10-21-2025 18:14:50.869 +0000 WARN  HttpClientRequest [35667 WebuiStartup] - Returning error HTTP/1.1 502 Connection refused
+10-21-2025 18:14:50.952 +0000 WARN  ProcessTracker [35344 MainThread] - (child_2__Fsck)  SSLOptions - server.conf/[sslConfig]/sslVerifyServerCert is false disabling certificate validation; must be set to "true" for increased security
+10-21-2025 18:14:51.005 +0000 INFO  ProcessTracker [35344 MainThread] - (child_2__Fsck)  Fsck - (bloomfilter only) Rebuild for bucket='/opt/splunk/var/lib/splunk/_internaldb/db/db_1761070042_1761067814_48' took 49.93 milliseconds
+10-21-2025 18:14:51.073 +0000 ERROR HttpClientRequest [35667 WebuiStartup] - HTTP client error=Connection refused while accessing server=http://127.0.0.1:8065 for request=http://127.0.0.1:8065/favicon.ico.
+10-21-2025 18:14:51.073 +0000 WARN  HttpClientRequest [35667 WebuiStartup] - Returning error HTTP/1.1 502 Connection refused
+10-21-2025 18:14:51.273 +0000 ERROR HttpClientRequest [35667 WebuiStartup] - HTTP client error=Connection refused while accessing server=http://127.0.0.1:8065 for request=http://127.0.0.1:8065/favicon.ico.
+10-21-2025 18:14:51.273 +0000 WARN  HttpClientRequest [35667 WebuiStartup] - Returning error HTTP/1.1 502 Connection refused
+10-21-2025 18:14:51.473 +0000 ERROR HttpClientRequest [35667 WebuiStartup] - HTTP client error=Connection refused while accessing server=http://127.0.0.1:8065 for request=http://127.0.0.1:8065/favicon.ico.
+10-21-2025 18:14:51.474 +0000 WARN  HttpClientRequest [35667 WebuiStartup] - Returning error HTTP/1.1 502 Connection refused
+10-21-2025 18:14:51.674 +0000 ERROR HttpClientRequest [35667 WebuiStartup] - HTTP client error=Connection refused while accessing server=http://127.0.0.1:8065 for request=http://127.0.0.1:8065/favicon.ico.
+10-21-2025 18:14:51.674 +0000 WARN  HttpClientRequest [35667 WebuiStartup] - Returning error HTTP/1.1 502 Connection refused
+10-21-2025 18:14:51.797 +0000 INFO  IndexerIf [35603 indexerPipe] - Asked to add or update bucket manifest values, bid=_configtracker~45~72BB6D7B-C75A-46FC-9274-9F0BF63F6930
+10-21-2025 18:14:51.875 +0000 ERROR HttpClientRequest [35667 WebuiStartup] - HTTP client error=Connection refused while accessing server=http://127.0.0.1:8065 for request=http://127.0.0.1:8065/favicon.ico.
+10-21-2025 18:14:51.875 +0000 WARN  HttpClientRequest [35667 WebuiStartup] - Returning error HTTP/1.1 502 Connection refused
+10-21-2025 18:14:52.013 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - DISPATCH::REGISTER_PACKAGE_ENDPOINTS method=POST
+10-21-2025 18:14:52.013 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Parsing JSON input for an endpoint to restmap and webconf stanza
+10-21-2025 18:14:52.013 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Start parsing restmap parameters for endpoint: agent-management-all-endpoints
+10-21-2025 18:14:52.013 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Start parsing web.conf parameters for endpoint: agent-management-all-endpoints
+10-21-2025 18:14:52.013 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Parsing JSON input for an endpoint to restmap and webconf stanza
+10-21-2025 18:14:52.013 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Start parsing restmap parameters for endpoint: agent-management-all-endpoints-webport-1
+10-21-2025 18:14:52.013 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Start parsing web.conf parameters for endpoint: agent-management-all-endpoints-webport-1
+10-21-2025 18:14:52.013 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Parsing JSON input for an endpoint to restmap and webconf stanza
+10-21-2025 18:14:52.013 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Start parsing restmap parameters for endpoint: agent-management-all-endpoints-webport-2
+10-21-2025 18:14:52.014 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Start parsing web.conf parameters for endpoint: agent-management-all-endpoints-webport-2
+10-21-2025 18:14:52.014 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Parsing JSON input for an endpoint to restmap and webconf stanza
+10-21-2025 18:14:52.014 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Start parsing restmap parameters for endpoint: agent-management-all-endpoints-webport-3
+10-21-2025 18:14:52.014 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Start parsing web.conf parameters for endpoint: agent-management-all-endpoints-webport-3
+10-21-2025 18:14:52.014 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Parsing JSON input for an endpoint to restmap and webconf stanza
+10-21-2025 18:14:52.014 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Start parsing restmap parameters for endpoint: agent-management-all-endpoints-webport-4
+10-21-2025 18:14:52.014 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Start parsing web.conf parameters for endpoint: agent-management-all-endpoints-webport-4
+10-21-2025 18:14:52.014 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Parsing JSON input for an endpoint to restmap and webconf stanza
+10-21-2025 18:14:52.014 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Start parsing restmap parameters for endpoint: agent-management-all-endpoints-webport-5
+10-21-2025 18:14:52.014 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Start parsing web.conf parameters for endpoint: agent-management-all-endpoints-webport-5
+10-21-2025 18:14:52.014 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Parsing JSON input for an endpoint to restmap and webconf stanza
+10-21-2025 18:14:52.014 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Start parsing restmap parameters for endpoint: agent-management-effective-configuration
+10-21-2025 18:14:52.014 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Start parsing web.conf parameters for endpoint: agent-management-effective-configuration
+10-21-2025 18:14:52.014 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Parsing JSON input for an endpoint to restmap and webconf stanza
+10-21-2025 18:14:52.014 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Start parsing restmap parameters for endpoint: supervisor-get-/node-arch/admin/v1/packages
+10-21-2025 18:14:52.014 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Parsing JSON input for an endpoint to restmap and webconf stanza
+10-21-2025 18:14:52.014 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Start parsing restmap parameters for endpoint: supervisor-get-/node-arch/admin/v1/packages/*
+10-21-2025 18:14:52.014 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Retrieving existing restmap config
+10-21-2025 18:14:52.014 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Retrieving existing webconf config
+10-21-2025 18:14:52.019 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Applying diff to restmap config. Number of input: 9 Number of existing: 2
+10-21-2025 18:14:52.019 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Updating or adding stanza local-proxy:tlPackage-agent-management-all-endpoints
+10-21-2025 18:14:52.032 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Updating or adding stanza local-proxy:tlPackage-agent-management-all-endpoints-webport-1
+10-21-2025 18:14:52.042 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Updating or adding stanza local-proxy:tlPackage-agent-management-all-endpoints-webport-2
+10-21-2025 18:14:52.050 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Updating or adding stanza local-proxy:tlPackage-agent-management-all-endpoints-webport-3
+10-21-2025 18:14:52.056 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Updating or adding stanza local-proxy:tlPackage-agent-management-all-endpoints-webport-4
+10-21-2025 18:14:52.063 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Updating or adding stanza local-proxy:tlPackage-agent-management-all-endpoints-webport-5
+10-21-2025 18:14:52.071 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Updating or adding stanza local-proxy:tlPackage-agent-management-effective-configuration
+10-21-2025 18:14:52.076 +0000 ERROR HttpClientRequest [35667 WebuiStartup] - HTTP client error=Connection refused while accessing server=http://127.0.0.1:8065 for request=http://127.0.0.1:8065/favicon.ico.
+10-21-2025 18:14:52.076 +0000 WARN  HttpClientRequest [35667 WebuiStartup] - Returning error HTTP/1.1 502 Connection refused
+10-21-2025 18:14:52.076 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Applying diff to webconf config. Number of input: 7 Number of existing: 0
+10-21-2025 18:14:52.076 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Updating or adding stanza expose:tlPackage-agent-management-all-endpoints
+10-21-2025 18:14:52.078 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Updating or adding stanza expose:tlPackage-agent-management-all-endpoints-webport-1
+10-21-2025 18:14:52.079 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Updating or adding stanza expose:tlPackage-agent-management-all-endpoints-webport-2
+10-21-2025 18:14:52.084 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Updating or adding stanza expose:tlPackage-agent-management-all-endpoints-webport-3
+10-21-2025 18:14:52.095 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Updating or adding stanza expose:tlPackage-agent-management-all-endpoints-webport-4
+10-21-2025 18:14:52.101 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Updating or adding stanza expose:tlPackage-agent-management-all-endpoints-webport-5
+10-21-2025 18:14:52.106 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Updating or adding stanza expose:tlPackage-agent-management-effective-configuration
+10-21-2025 18:14:52.117 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Successfully applied diff
+10-21-2025 18:14:52.144 +0000 WARN  ProcessTracker [35344 MainThread] - (child_3__Fsck)  SSLOptions - server.conf/[sslConfig]/sslVerifyServerCert is false disabling certificate validation; must be set to "true" for increased security
+10-21-2025 18:14:52.204 +0000 INFO  DatabaseDirectoryManager [35563 IndexerService] - idx=_configtracker writing a bucket manifest in hotWarmPath='/opt/splunk/var/lib/splunk/_configtracker/db' pendingBucketUpdates=1 innerLockTime=0.000. Reason='IndexerService periodic manifest update'
+10-21-2025 18:14:52.204 +0000 INFO  DatabaseDirectoryManager [35563 IndexerService] - Finished writing bucket manifest in hotWarmPath=/opt/splunk/var/lib/splunk/_configtracker/db duration=0.000
+10-21-2025 18:14:52.282 +0000 ERROR HttpClientRequest [35667 WebuiStartup] - HTTP client error=Connection refused while accessing server=http://127.0.0.1:8065 for request=http://127.0.0.1:8065/favicon.ico.
+10-21-2025 18:14:52.282 +0000 WARN  HttpClientRequest [35667 WebuiStartup] - Returning error HTTP/1.1 502 Connection refused
+10-21-2025 18:14:52.485 +0000 ERROR HttpClientRequest [35667 WebuiStartup] - HTTP client error=Connection refused while accessing server=http://127.0.0.1:8065 for request=http://127.0.0.1:8065/favicon.ico.
+10-21-2025 18:14:52.485 +0000 WARN  HttpClientRequest [35667 WebuiStartup] - Returning error HTTP/1.1 502 Connection refused
+10-21-2025 18:14:52.562 +0000 INFO  ProcessTracker [35344 MainThread] - (child_3__Fsck)  Fsck - (bloomfilter only) Rebuild for bucket='/opt/splunk/var/lib/splunk/_introspection/db/db_1761070039_1761067835_45' took 415.3 milliseconds
+10-21-2025 18:14:52.687 +0000 ERROR HttpClientRequest [35667 WebuiStartup] - HTTP client error=Connection refused while accessing server=http://127.0.0.1:8065 for request=http://127.0.0.1:8065/favicon.ico.
+10-21-2025 18:14:52.687 +0000 WARN  HttpClientRequest [35667 WebuiStartup] - Returning error HTTP/1.1 502 Connection refused
+10-21-2025 18:14:52.798 +0000 INFO  IndexerIf [35603 indexerPipe] - Asked to add or update bucket manifest values, bid=_internal~48~72BB6D7B-C75A-46FC-9274-9F0BF63F6930
+10-21-2025 18:14:52.887 +0000 ERROR HttpClientRequest [35667 WebuiStartup] - HTTP client error=Connection refused while accessing server=http://127.0.0.1:8065 for request=http://127.0.0.1:8065/favicon.ico.
+10-21-2025 18:14:52.887 +0000 WARN  HttpClientRequest [35667 WebuiStartup] - Returning error HTTP/1.1 502 Connection refused
+10-21-2025 18:14:52.915 +0000 INFO  RegisterPackageHandler [35668 TcpChannelThread] - DISPATCH::REGISTER_PACKAGE_ENDPOINTS method=POST
+10-21-2025 18:14:52.915 +0000 INFO  RegisterPackageHandler [35668 TcpChannelThread] - Parsing JSON input for an endpoint to restmap and webconf stanza
+10-21-2025 18:14:52.915 +0000 INFO  RegisterPackageHandler [35668 TcpChannelThread] - Start parsing restmap parameters for endpoint: agent-management-all-endpoints
+10-21-2025 18:14:52.915 +0000 INFO  RegisterPackageHandler [35668 TcpChannelThread] - Start parsing web.conf parameters for endpoint: agent-management-all-endpoints
+10-21-2025 18:14:52.915 +0000 INFO  RegisterPackageHandler [35668 TcpChannelThread] - Parsing JSON input for an endpoint to restmap and webconf stanza
+10-21-2025 18:14:52.915 +0000 INFO  RegisterPackageHandler [35668 TcpChannelThread] - Start parsing restmap parameters for endpoint: agent-management-all-endpoints-webport-1
+10-21-2025 18:14:52.915 +0000 INFO  RegisterPackageHandler [35668 TcpChannelThread] - Start parsing web.conf parameters for endpoint: agent-management-all-endpoints-webport-1
+10-21-2025 18:14:52.915 +0000 INFO  RegisterPackageHandler [35668 TcpChannelThread] - Parsing JSON input for an endpoint to restmap and webconf stanza
+10-21-2025 18:14:52.915 +0000 INFO  RegisterPackageHandler [35668 TcpChannelThread] - Start parsing restmap parameters for endpoint: agent-management-all-endpoints-webport-2
+10-21-2025 18:14:52.915 +0000 INFO  RegisterPackageHandler [35668 TcpChannelThread] - Start parsing web.conf parameters for endpoint: agent-management-all-endpoints-webport-2
+10-21-2025 18:14:52.915 +0000 INFO  RegisterPackageHandler [35668 TcpChannelThread] - Parsing JSON input for an endpoint to restmap and webconf stanza
+10-21-2025 18:14:52.915 +0000 INFO  RegisterPackageHandler [35668 TcpChannelThread] - Start parsing restmap parameters for endpoint: agent-management-all-endpoints-webport-3
+10-21-2025 18:14:52.915 +0000 INFO  RegisterPackageHandler [35668 TcpChannelThread] - Start parsing web.conf parameters for endpoint: agent-management-all-endpoints-webport-3
+10-21-2025 18:14:52.915 +0000 INFO  RegisterPackageHandler [35668 TcpChannelThread] - Parsing JSON input for an endpoint to restmap and webconf stanza
+10-21-2025 18:14:52.915 +0000 INFO  RegisterPackageHandler [35668 TcpChannelThread] - Start parsing restmap parameters for endpoint: agent-management-all-endpoints-webport-4
+10-21-2025 18:14:52.915 +0000 INFO  RegisterPackageHandler [35668 TcpChannelThread] - Start parsing web.conf parameters for endpoint: agent-management-all-endpoints-webport-4
+10-21-2025 18:14:52.915 +0000 INFO  RegisterPackageHandler [35668 TcpChannelThread] - Parsing JSON input for an endpoint to restmap and webconf stanza
+10-21-2025 18:14:52.915 +0000 INFO  RegisterPackageHandler [35668 TcpChannelThread] - Start parsing restmap parameters for endpoint: agent-management-all-endpoints-webport-5
+10-21-2025 18:14:52.915 +0000 INFO  RegisterPackageHandler [35668 TcpChannelThread] - Start parsing web.conf parameters for endpoint: agent-management-all-endpoints-webport-5
+10-21-2025 18:14:52.915 +0000 INFO  RegisterPackageHandler [35668 TcpChannelThread] - Parsing JSON input for an endpoint to restmap and webconf stanza
+10-21-2025 18:14:52.915 +0000 INFO  RegisterPackageHandler [35668 TcpChannelThread] - Start parsing restmap parameters for endpoint: agent-management-effective-configuration
+10-21-2025 18:14:52.915 +0000 INFO  RegisterPackageHandler [35668 TcpChannelThread] - Start parsing web.conf parameters for endpoint: agent-management-effective-configuration
+10-21-2025 18:14:52.915 +0000 INFO  RegisterPackageHandler [35668 TcpChannelThread] - Parsing JSON input for an endpoint to restmap and webconf stanza
+10-21-2025 18:14:52.915 +0000 INFO  RegisterPackageHandler [35668 TcpChannelThread] - Start parsing restmap parameters for endpoint: scimGroup
+10-21-2025 18:14:52.915 +0000 INFO  RegisterPackageHandler [35668 TcpChannelThread] - Start parsing web.conf parameters for endpoint: scimGroup
+10-21-2025 18:14:52.915 +0000 INFO  RegisterPackageHandler [35668 TcpChannelThread] - Parsing JSON input for an endpoint to restmap and webconf stanza
+10-21-2025 18:14:52.915 +0000 INFO  RegisterPackageHandler [35668 TcpChannelThread] - Start parsing restmap parameters for endpoint: scimGroups
+10-21-2025 18:14:52.915 +0000 INFO  RegisterPackageHandler [35668 TcpChannelThread] - Start parsing web.conf parameters for endpoint: scimGroups
+10-21-2025 18:14:52.915 +0000 INFO  RegisterPackageHandler [35668 TcpChannelThread] - Parsing JSON input for an endpoint to restmap and webconf stanza
+10-21-2025 18:14:52.915 +0000 INFO  RegisterPackageHandler [35668 TcpChannelThread] - Start parsing restmap parameters for endpoint: scimUser
+10-21-2025 18:14:52.915 +0000 INFO  RegisterPackageHandler [35668 TcpChannelThread] - Start parsing web.conf parameters for endpoint: scimUser
+10-21-2025 18:14:52.915 +0000 INFO  RegisterPackageHandler [35668 TcpChannelThread] - Parsing JSON input for an endpoint to restmap and webconf stanza
+10-21-2025 18:14:52.915 +0000 INFO  RegisterPackageHandler [35668 TcpChannelThread] - Start parsing restmap parameters for endpoint: scimUsers
+10-21-2025 18:14:52.915 +0000 INFO  RegisterPackageHandler [35668 TcpChannelThread] - Start parsing web.conf parameters for endpoint: scimUsers
+10-21-2025 18:14:52.915 +0000 INFO  RegisterPackageHandler [35668 TcpChannelThread] - Parsing JSON input for an endpoint to restmap and webconf stanza
+10-21-2025 18:14:52.915 +0000 INFO  RegisterPackageHandler [35668 TcpChannelThread] - Start parsing restmap parameters for endpoint: supervisor-get-/node-arch/admin/v1/packages
+10-21-2025 18:14:52.915 +0000 INFO  RegisterPackageHandler [35668 TcpChannelThread] - Parsing JSON input for an endpoint to restmap and webconf stanza
+10-21-2025 18:14:52.915 +0000 INFO  RegisterPackageHandler [35668 TcpChannelThread] - Start parsing restmap parameters for endpoint: supervisor-get-/node-arch/admin/v1/packages/*
+10-21-2025 18:14:52.915 +0000 INFO  RegisterPackageHandler [35668 TcpChannelThread] - Retrieving existing restmap config
+10-21-2025 18:14:52.915 +0000 INFO  RegisterPackageHandler [35668 TcpChannelThread] - Retrieving existing webconf config
+10-21-2025 18:14:52.919 +0000 INFO  RegisterPackageHandler [35668 TcpChannelThread] - Applying diff to restmap config. Number of input: 13 Number of existing: 9
+10-21-2025 18:14:52.919 +0000 INFO  RegisterPackageHandler [35668 TcpChannelThread] - Updating or adding stanza local-proxy:tlPackage-scimGroup
+10-21-2025 18:14:52.924 +0000 INFO  RegisterPackageHandler [35668 TcpChannelThread] - Updating or adding stanza local-proxy:tlPackage-scimGroups
+10-21-2025 18:14:52.933 +0000 INFO  RegisterPackageHandler [35668 TcpChannelThread] - Updating or adding stanza local-proxy:tlPackage-scimUser
+10-21-2025 18:14:52.940 +0000 INFO  RegisterPackageHandler [35668 TcpChannelThread] - Updating or adding stanza local-proxy:tlPackage-scimUsers
+10-21-2025 18:14:52.949 +0000 INFO  RegisterPackageHandler [35668 TcpChannelThread] - Applying diff to webconf config. Number of input: 11 Number of existing: 7
+10-21-2025 18:14:52.949 +0000 INFO  RegisterPackageHandler [35668 TcpChannelThread] - Updating or adding stanza expose:tlPackage-scimGroup
+10-21-2025 18:14:52.960 +0000 WARN  ProcessTracker [35344 MainThread] - (child_4__Fsck)  SSLOptions - server.conf/[sslConfig]/sslVerifyServerCert is false disabling certificate validation; must be set to "true" for increased security
+10-21-2025 18:14:52.979 +0000 INFO  ProcessTracker [35344 MainThread] - (child_4__Fsck)  Fsck - (bloomfilter only) Rebuild for bucket='/opt/splunk/var/lib/splunk/_telemetry/db/db_1761070041_1761068437_43' took 5.774 milliseconds
+10-21-2025 18:14:52.983 +0000 INFO  RegisterPackageHandler [35668 TcpChannelThread] - Updating or adding stanza expose:tlPackage-scimGroups
+10-21-2025 18:14:52.988 +0000 INFO  RegisterPackageHandler [35668 TcpChannelThread] - Updating or adding stanza expose:tlPackage-scimUser
+10-21-2025 18:14:52.990 +0000 INFO  RegisterPackageHandler [35668 TcpChannelThread] - Updating or adding stanza expose:tlPackage-scimUsers
+10-21-2025 18:14:52.992 +0000 INFO  RegisterPackageHandler [35668 TcpChannelThread] - Successfully applied diff
+10-21-2025 18:14:53.089 +0000 ERROR HttpClientRequest [35667 WebuiStartup] - HTTP client error=Connection refused while accessing server=http://127.0.0.1:8065 for request=http://127.0.0.1:8065/favicon.ico.
+10-21-2025 18:14:53.089 +0000 WARN  HttpClientRequest [35667 WebuiStartup] - Returning error HTTP/1.1 502 Connection refused
+10-21-2025 18:14:53.203 +0000 INFO  DatabaseDirectoryManager [35563 IndexerService] - idx=_internal writing a bucket manifest in hotWarmPath='/opt/splunk/var/lib/splunk/_internaldb/db' pendingBucketUpdates=1 innerLockTime=0.000. Reason='IndexerService periodic manifest update'
+10-21-2025 18:14:53.209 +0000 INFO  DatabaseDirectoryManager [35563 IndexerService] - Finished writing bucket manifest in hotWarmPath=/opt/splunk/var/lib/splunk/_internaldb/db duration=0.006
+10-21-2025 18:14:53.290 +0000 ERROR HttpClientRequest [35667 WebuiStartup] - HTTP client error=Connection refused while accessing server=http://127.0.0.1:8065 for request=http://127.0.0.1:8065/favicon.ico.
+10-21-2025 18:14:53.290 +0000 WARN  HttpClientRequest [35667 WebuiStartup] - Returning error HTTP/1.1 502 Connection refused
+10-21-2025 18:14:53.491 +0000 ERROR HttpClientRequest [35667 WebuiStartup] - HTTP client error=Connection refused while accessing server=http://127.0.0.1:8065 for request=http://127.0.0.1:8065/favicon.ico.
+10-21-2025 18:14:53.491 +0000 WARN  HttpClientRequest [35667 WebuiStartup] - Returning error HTTP/1.1 502 Connection refused
+10-21-2025 18:14:53.692 +0000 ERROR HttpClientRequest [35667 WebuiStartup] - HTTP client error=Connection refused while accessing server=http://127.0.0.1:8065 for request=http://127.0.0.1:8065/favicon.ico.
+10-21-2025 18:14:53.692 +0000 WARN  HttpClientRequest [35667 WebuiStartup] - Returning error HTTP/1.1 502 Connection refused
+10-21-2025 18:14:53.797 +0000 INFO  IndexerIf [35603 indexerPipe] - Asked to add or update bucket manifest values, bid=_introspection~45~72BB6D7B-C75A-46FC-9274-9F0BF63F6930
+10-21-2025 18:14:53.871 +0000 WARN  ProcessTracker [35344 MainThread] - (child_5__Fsck)  SSLOptions - server.conf/[sslConfig]/sslVerifyServerCert is false disabling certificate validation; must be set to "true" for increased security
+10-21-2025 18:14:53.880 +0000 INFO  ProcessTracker [35344 MainThread] - (child_5__Fsck)  Fsck - (bloomfilter only) Rebuild for bucket='/opt/splunk/var/lib/splunk/_metrics/db/db_1761070040_1761067835_228' took 5.368 milliseconds
+10-21-2025 18:14:54.205 +0000 INFO  DatabaseDirectoryManager [35563 IndexerService] - idx=_introspection writing a bucket manifest in hotWarmPath='/opt/splunk/var/lib/splunk/_introspection/db' pendingBucketUpdates=1 innerLockTime=0.000. Reason='IndexerService periodic manifest update'
+10-21-2025 18:14:54.209 +0000 INFO  DatabaseDirectoryManager [35563 IndexerService] - Finished writing bucket manifest in hotWarmPath=/opt/splunk/var/lib/splunk/_introspection/db duration=0.005
+10-21-2025 18:14:54.965 +0000 INFO  IndexerIf [35603 indexerPipe] - Asked to add or update bucket manifest values, bid=_telemetry~43~72BB6D7B-C75A-46FC-9274-9F0BF63F6930
+10-21-2025 18:14:54.986 +0000 INFO  IndexerIf [35603 indexerPipe] - Asked to add or update bucket manifest values, bid=_metrics~228~72BB6D7B-C75A-46FC-9274-9F0BF63F6930
+10-21-2025 18:14:55.182 +0000 WARN  ProcessTracker [35344 MainThread] - (child_6__Fsck)  SSLOptions - server.conf/[sslConfig]/sslVerifyServerCert is false disabling certificate validation; must be set to "true" for increased security
+10-21-2025 18:14:55.198 +0000 INFO  ProcessTracker [35344 MainThread] - (child_6__Fsck)  Fsck - (bloomfilter only) Rebuild for bucket='/opt/splunk/var/lib/splunk/defaultdb/db/db_1761069001_1761068100_6' took 7.239 milliseconds
+10-21-2025 18:14:55.203 +0000 INFO  DatabaseDirectoryManager [35563 IndexerService] - idx=_telemetry writing a bucket manifest in hotWarmPath='/opt/splunk/var/lib/splunk/_telemetry/db' pendingBucketUpdates=1 innerLockTime=0.000. Reason='IndexerService periodic manifest update'
+10-21-2025 18:14:55.203 +0000 INFO  DatabaseDirectoryManager [35563 IndexerService] - Finished writing bucket manifest in hotWarmPath=/opt/splunk/var/lib/splunk/_telemetry/db duration=0.000
+10-21-2025 18:14:55.949 +0000 WARN  ProcessTracker [35344 MainThread] - (child_7__Fsck)  SSLOptions - server.conf/[sslConfig]/sslVerifyServerCert is false disabling certificate validation; must be set to "true" for increased security
+10-21-2025 18:14:55.965 +0000 INFO  ProcessTracker [35344 MainThread] - (child_7__Fsck)  Fsck - (bloomfilter only) Rebuild for bucket='/opt/splunk/var/lib/splunk/_metrics/db/db_1761070040_1761067835_225' took 12.89 milliseconds
+10-21-2025 18:14:56.797 +0000 INFO  IndexerIf [35603 indexerPipe] - Asked to add or update bucket manifest values, bid=main~6~72BB6D7B-C75A-46FC-9274-9F0BF63F6930
+10-21-2025 18:14:57.008 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - DISPATCH::REGISTER_PACKAGE_ENDPOINTS method=POST
+10-21-2025 18:14:57.008 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Parsing JSON input for an endpoint to restmap and webconf stanza
+10-21-2025 18:14:57.008 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Start parsing restmap parameters for endpoint: agent-management-all-endpoints
+10-21-2025 18:14:57.008 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Start parsing web.conf parameters for endpoint: agent-management-all-endpoints
+10-21-2025 18:14:57.008 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Parsing JSON input for an endpoint to restmap and webconf stanza
+10-21-2025 18:14:57.008 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Start parsing restmap parameters for endpoint: agent-management-all-endpoints-webport-1
+10-21-2025 18:14:57.008 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Start parsing web.conf parameters for endpoint: agent-management-all-endpoints-webport-1
+10-21-2025 18:14:57.008 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Parsing JSON input for an endpoint to restmap and webconf stanza
+10-21-2025 18:14:57.008 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Start parsing restmap parameters for endpoint: agent-management-all-endpoints-webport-2
+10-21-2025 18:14:57.008 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Start parsing web.conf parameters for endpoint: agent-management-all-endpoints-webport-2
+10-21-2025 18:14:57.008 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Parsing JSON input for an endpoint to restmap and webconf stanza
+10-21-2025 18:14:57.008 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Start parsing restmap parameters for endpoint: agent-management-all-endpoints-webport-3
+10-21-2025 18:14:57.008 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Start parsing web.conf parameters for endpoint: agent-management-all-endpoints-webport-3
+10-21-2025 18:14:57.008 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Parsing JSON input for an endpoint to restmap and webconf stanza
+10-21-2025 18:14:57.008 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Start parsing restmap parameters for endpoint: agent-management-all-endpoints-webport-4
+10-21-2025 18:14:57.008 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Start parsing web.conf parameters for endpoint: agent-management-all-endpoints-webport-4
+10-21-2025 18:14:57.008 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Parsing JSON input for an endpoint to restmap and webconf stanza
+10-21-2025 18:14:57.008 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Start parsing restmap parameters for endpoint: agent-management-all-endpoints-webport-5
+10-21-2025 18:14:57.008 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Start parsing web.conf parameters for endpoint: agent-management-all-endpoints-webport-5
+10-21-2025 18:14:57.008 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Parsing JSON input for an endpoint to restmap and webconf stanza
+10-21-2025 18:14:57.008 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Start parsing restmap parameters for endpoint: agent-management-effective-configuration
+10-21-2025 18:14:57.008 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Start parsing web.conf parameters for endpoint: agent-management-effective-configuration
+10-21-2025 18:14:57.008 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Parsing JSON input for an endpoint to restmap and webconf stanza
+10-21-2025 18:14:57.008 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Start parsing restmap parameters for endpoint: edit_orchestrator_single_spl2_module
+10-21-2025 18:14:57.008 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Start parsing web.conf parameters for endpoint: edit_orchestrator_single_spl2_module
+10-21-2025 18:14:57.008 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Parsing JSON input for an endpoint to restmap and webconf stanza
+10-21-2025 18:14:57.010 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Start parsing restmap parameters for endpoint: get_orchestrator_single_spl2_module
+10-21-2025 18:14:57.010 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Start parsing web.conf parameters for endpoint: get_orchestrator_single_spl2_module
+10-21-2025 18:14:57.010 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Parsing JSON input for an endpoint to restmap and webconf stanza
+10-21-2025 18:14:57.010 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Start parsing restmap parameters for endpoint: orchestrator-lsp
+10-21-2025 18:14:57.010 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Start parsing web.conf parameters for endpoint: orchestrator-lsp
+10-21-2025 18:14:57.010 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Parsing JSON input for an endpoint to restmap and webconf stanza
+10-21-2025 18:14:57.010 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Start parsing restmap parameters for endpoint: orchestrator_create_system_pipeline
+10-21-2025 18:14:57.010 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Start parsing web.conf parameters for endpoint: orchestrator_create_system_pipeline
+10-21-2025 18:14:57.010 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Parsing JSON input for an endpoint to restmap and webconf stanza
+10-21-2025 18:14:57.010 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Start parsing restmap parameters for endpoint: orchestrator_datasets
+10-21-2025 18:14:57.010 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - For endpoint: tlPackage-orchestrator_datasets, value of forwardOriginalURL is: 1
+10-21-2025 18:14:57.010 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Start parsing web.conf parameters for endpoint: orchestrator_datasets
+10-21-2025 18:14:57.010 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Parsing JSON input for an endpoint to restmap and webconf stanza
+10-21-2025 18:14:57.010 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Start parsing restmap parameters for endpoint: orchestrator_import_management
+10-21-2025 18:14:57.010 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Start parsing web.conf parameters for endpoint: orchestrator_import_management
+10-21-2025 18:14:57.010 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Parsing JSON input for an endpoint to restmap and webconf stanza
+10-21-2025 18:14:57.010 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Start parsing restmap parameters for endpoint: orchestrator_import_management_info
+10-21-2025 18:14:57.010 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Start parsing web.conf parameters for endpoint: orchestrator_import_management_info
+10-21-2025 18:14:57.010 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Parsing JSON input for an endpoint to restmap and webconf stanza
+10-21-2025 18:14:57.010 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Start parsing restmap parameters for endpoint: orchestrator_jobs
+10-21-2025 18:14:57.010 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Start parsing web.conf parameters for endpoint: orchestrator_jobs
+10-21-2025 18:14:57.010 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Parsing JSON input for an endpoint to restmap and webconf stanza
+10-21-2025 18:14:57.010 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Start parsing restmap parameters for endpoint: orchestrator_processor_default_destination
+10-21-2025 18:14:57.010 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Start parsing web.conf parameters for endpoint: orchestrator_processor_default_destination
+10-21-2025 18:14:57.010 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Parsing JSON input for an endpoint to restmap and webconf stanza
+10-21-2025 18:14:57.010 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Start parsing restmap parameters for endpoint: orchestrator_single_dataset
+10-21-2025 18:14:57.010 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - For endpoint: tlPackage-orchestrator_single_dataset, value of forwardOriginalURL is: 1
+10-21-2025 18:14:57.010 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Start parsing web.conf parameters for endpoint: orchestrator_single_dataset
+10-21-2025 18:14:57.010 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Parsing JSON input for an endpoint to restmap and webconf stanza
+10-21-2025 18:14:57.010 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Start parsing restmap parameters for endpoint: orchestrator_single_jobs
+10-21-2025 18:14:57.010 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - For endpoint: tlPackage-orchestrator_single_jobs, value of forwardOriginalURL is: 1
+10-21-2025 18:14:57.010 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Start parsing web.conf parameters for endpoint: orchestrator_single_jobs
+10-21-2025 18:14:57.010 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Parsing JSON input for an endpoint to restmap and webconf stanza
+10-21-2025 18:14:57.010 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Start parsing restmap parameters for endpoint: orchestrator_sourcetype_sync
+10-21-2025 18:14:57.010 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Start parsing web.conf parameters for endpoint: orchestrator_sourcetype_sync
+10-21-2025 18:14:57.010 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Parsing JSON input for an endpoint to restmap and webconf stanza
+10-21-2025 18:14:57.010 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Start parsing restmap parameters for endpoint: orchestrator_spl2_dispatch
+10-21-2025 18:14:57.010 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - For endpoint: tlPackage-orchestrator_spl2_dispatch, value of forwardOriginalURL is: 1
+10-21-2025 18:14:57.010 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Start parsing web.conf parameters for endpoint: orchestrator_spl2_dispatch
+10-21-2025 18:14:57.010 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Parsing JSON input for an endpoint to restmap and webconf stanza
+10-21-2025 18:14:57.010 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Start parsing restmap parameters for endpoint: orchestrator_spl_functions
+10-21-2025 18:14:57.010 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Start parsing web.conf parameters for endpoint: orchestrator_spl_functions
+10-21-2025 18:14:57.010 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Parsing JSON input for an endpoint to restmap and webconf stanza
+10-21-2025 18:14:57.010 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Start parsing restmap parameters for endpoint: orchestrator_spl_modules
+10-21-2025 18:14:57.010 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Start parsing web.conf parameters for endpoint: orchestrator_spl_modules
+10-21-2025 18:14:57.010 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Parsing JSON input for an endpoint to restmap and webconf stanza
+10-21-2025 18:14:57.010 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Start parsing restmap parameters for endpoint: otto_spl2_compile
+10-21-2025 18:14:57.010 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Parsing JSON input for an endpoint to restmap and webconf stanza
+10-21-2025 18:14:57.010 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Start parsing restmap parameters for endpoint: otto_spl2_dispatch
+10-21-2025 18:14:57.010 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Parsing JSON input for an endpoint to restmap and webconf stanza
+10-21-2025 18:14:57.010 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Start parsing restmap parameters for endpoint: otto_spl2_modules
+10-21-2025 18:14:57.010 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Parsing JSON input for an endpoint to restmap and webconf stanza
+10-21-2025 18:14:57.010 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Start parsing restmap parameters for endpoint: otto_spl2_rbac_permissions
+10-21-2025 18:14:57.010 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Parsing JSON input for an endpoint to restmap and webconf stanza
+10-21-2025 18:14:57.010 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Start parsing restmap parameters for endpoint: scimGroup
+10-21-2025 18:14:57.010 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Start parsing web.conf parameters for endpoint: scimGroup
+10-21-2025 18:14:57.010 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Parsing JSON input for an endpoint to restmap and webconf stanza
+10-21-2025 18:14:57.010 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Start parsing restmap parameters for endpoint: scimGroups
+10-21-2025 18:14:57.010 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Start parsing web.conf parameters for endpoint: scimGroups
+10-21-2025 18:14:57.010 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Parsing JSON input for an endpoint to restmap and webconf stanza
+10-21-2025 18:14:57.010 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Start parsing restmap parameters for endpoint: scimUser
+10-21-2025 18:14:57.010 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Start parsing web.conf parameters for endpoint: scimUser
+10-21-2025 18:14:57.010 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Parsing JSON input for an endpoint to restmap and webconf stanza
+10-21-2025 18:14:57.010 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Start parsing restmap parameters for endpoint: scimUsers
+10-21-2025 18:14:57.010 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Start parsing web.conf parameters for endpoint: scimUsers
+10-21-2025 18:14:57.010 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Parsing JSON input for an endpoint to restmap and webconf stanza
+10-21-2025 18:14:57.010 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Start parsing restmap parameters for endpoint: supervisor-get-/node-arch/admin/v1/packages
+10-21-2025 18:14:57.010 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Parsing JSON input for an endpoint to restmap and webconf stanza
+10-21-2025 18:14:57.010 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Start parsing restmap parameters for endpoint: supervisor-get-/node-arch/admin/v1/packages/*
+10-21-2025 18:14:57.010 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Retrieving existing restmap config
+10-21-2025 18:14:57.010 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Retrieving existing webconf config
+10-21-2025 18:14:57.010 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Applying diff to restmap config. Number of input: 32 Number of existing: 13
+10-21-2025 18:14:57.011 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Updating or adding stanza local-proxy:tlPackage-edit_orchestrator_single_spl2_module
+10-21-2025 18:14:57.012 +0000 WARN  ProcessTracker [35344 MainThread] - (child_8__Fsck)  SSLOptions - server.conf/[sslConfig]/sslVerifyServerCert is false disabling certificate validation; must be set to "true" for increased security
+10-21-2025 18:14:57.016 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Updating or adding stanza local-proxy:tlPackage-get_orchestrator_single_spl2_module
+10-21-2025 18:14:57.026 +0000 INFO  ProcessTracker [35344 MainThread] - (child_8__Fsck)  Fsck - (bloomfilter only) Rebuild for bucket='/opt/splunk/var/lib/splunk/_metrics/db/db_1761070040_1761067845_229' took 7.983 milliseconds
+10-21-2025 18:14:57.030 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Updating or adding stanza local-proxy:tlPackage-orchestrator_create_system_pipeline
+10-21-2025 18:14:57.036 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Updating or adding stanza local-proxy:tlPackage-orchestrator_datasets
+10-21-2025 18:14:57.046 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Updating or adding stanza local-proxy:tlPackage-orchestrator_import_management
+10-21-2025 18:14:57.050 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Updating or adding stanza local-proxy:tlPackage-orchestrator_import_management_info
+10-21-2025 18:14:57.056 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Updating or adding stanza local-proxy:tlPackage-orchestrator_jobs
+10-21-2025 18:14:57.063 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Updating or adding stanza local-proxy:tlPackage-orchestrator_processor_default_destination
+10-21-2025 18:14:57.069 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Updating or adding stanza local-proxy:tlPackage-orchestrator_single_dataset
+10-21-2025 18:14:57.072 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Updating or adding stanza local-proxy:tlPackage-orchestrator_single_jobs
+10-21-2025 18:14:57.076 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Updating or adding stanza local-proxy:tlPackage-orchestrator_sourcetype_sync
+10-21-2025 18:14:57.079 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Updating or adding stanza local-proxy:tlPackage-orchestrator_spl2_dispatch
+10-21-2025 18:14:57.083 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Updating or adding stanza local-proxy:tlPackage-orchestrator_spl_functions
+10-21-2025 18:14:57.085 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Updating or adding stanza local-proxy:tlPackage-orchestrator_spl_modules
+10-21-2025 18:14:57.088 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Updating or adding stanza local-proxy:tlPackage-otto_spl2_compile
+10-21-2025 18:14:57.090 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Updating or adding stanza local-proxy:tlPackage-otto_spl2_dispatch
+10-21-2025 18:14:57.093 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Updating or adding stanza local-proxy:tlPackage-otto_spl2_modules
+10-21-2025 18:14:57.095 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Updating or adding stanza local-proxy:tlPackage-otto_spl2_rbac_permissions
+10-21-2025 18:14:57.098 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Updating or adding stanza ws-local-proxy:tlPackage-orchestrator-lsp
+10-21-2025 18:14:57.100 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Applying diff to webconf config. Number of input: 26 Number of existing: 11
+10-21-2025 18:14:57.100 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Updating or adding stanza expose:tlPackage-edit_orchestrator_single_spl2_module
+10-21-2025 18:14:57.103 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Updating or adding stanza expose:tlPackage-get_orchestrator_single_spl2_module
+10-21-2025 18:14:57.105 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Updating or adding stanza expose:tlPackage-orchestrator-lsp
+10-21-2025 18:14:57.107 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Updating or adding stanza expose:tlPackage-orchestrator_create_system_pipeline
+10-21-2025 18:14:57.109 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Updating or adding stanza expose:tlPackage-orchestrator_datasets
+10-21-2025 18:14:57.113 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Updating or adding stanza expose:tlPackage-orchestrator_import_management
+10-21-2025 18:14:57.115 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Updating or adding stanza expose:tlPackage-orchestrator_import_management_info
+10-21-2025 18:14:57.118 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Updating or adding stanza expose:tlPackage-orchestrator_jobs
+10-21-2025 18:14:57.120 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Updating or adding stanza expose:tlPackage-orchestrator_processor_default_destination
+10-21-2025 18:14:57.122 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Updating or adding stanza expose:tlPackage-orchestrator_single_dataset
+10-21-2025 18:14:57.126 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Updating or adding stanza expose:tlPackage-orchestrator_single_jobs
+10-21-2025 18:14:57.130 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Updating or adding stanza expose:tlPackage-orchestrator_sourcetype_sync
+10-21-2025 18:14:57.140 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Updating or adding stanza expose:tlPackage-orchestrator_spl2_dispatch
+10-21-2025 18:14:57.142 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Updating or adding stanza expose:tlPackage-orchestrator_spl_functions
+10-21-2025 18:14:57.145 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Updating or adding stanza expose:tlPackage-orchestrator_spl_modules
+10-21-2025 18:14:57.150 +0000 INFO  RegisterPackageHandler [35907 TcpChannelThread] - Successfully applied diff
+10-21-2025 18:14:57.203 +0000 INFO  DatabaseDirectoryManager [35563 IndexerService] - idx=main writing a bucket manifest in hotWarmPath='/opt/splunk/var/lib/splunk/defaultdb/db' pendingBucketUpdates=1 innerLockTime=0.000. Reason='IndexerService periodic manifest update'
+10-21-2025 18:14:57.203 +0000 INFO  DatabaseDirectoryManager [35563 IndexerService] - Finished writing bucket manifest in hotWarmPath=/opt/splunk/var/lib/splunk/defaultdb/db duration=0.000
+10-21-2025 18:14:57.803 +0000 INFO  IndexerIf [35603 indexerPipe] - Asked to add or update bucket manifest values, bid=_metrics~225~72BB6D7B-C75A-46FC-9274-9F0BF63F6930
+10-21-2025 18:14:57.895 +0000 WARN  ProcessTracker [35344 MainThread] - (child_9__Fsck)  SSLOptions - server.conf/[sslConfig]/sslVerifyServerCert is false disabling certificate validation; must be set to "true" for increased security
+10-21-2025 18:14:57.908 +0000 INFO  ProcessTracker [35344 MainThread] - (child_9__Fsck)  Fsck - (bloomfilter only) Rebuild for bucket='/opt/splunk/var/lib/splunk/_metrics/db/db_1761070040_1761067835_226' took 11.36 milliseconds
+10-21-2025 18:14:58.458 +0000 WARN  SearchProcessRunner [35681 AuditSearchExecutor] - Preforked search process pool limits: max_search_process_pool=2048, manager_threads=1, enable_search_process_long_lifespan=1, max_search_process_per_manager=2048, max_idle_process_count=64, max_idle_process_memory=1048576
+10-21-2025 18:14:58.848 +0000 INFO  IndexerIf [35603 indexerPipe] - Asked to add or update bucket manifest values, bid=_metrics~229~72BB6D7B-C75A-46FC-9274-9F0BF63F6930
+10-21-2025 18:14:59.008 +0000 WARN  ProcessTracker [35344 MainThread] - (child_10__Fsck)  SSLOptions - server.conf/[sslConfig]/sslVerifyServerCert is false disabling certificate validation; must be set to "true" for increased security
+10-21-2025 18:14:59.012 +0000 INFO  ProcessTracker [35344 MainThread] - (child_10__Fsck)  Fsck - (bloomfilter only) Rebuild for bucket='/opt/splunk/var/lib/splunk/_metrics/db/db_1761070040_1761067835_227' took 2127 microseconds
+10-21-2025 18:14:59.046 +0000 INFO  DispatchStorageManager [35681 AuditSearchExecutor] - Remote storage disabled for search artifacts.
+10-21-2025 18:14:59.811 +0000 INFO  IndexerIf [35603 indexerPipe] - Asked to add or update bucket manifest values, bid=_metrics~226~72BB6D7B-C75A-46FC-9274-9F0BF63F6930
+10-21-2025 18:14:59.901 +0000 WARN  ProcessTracker [35344 MainThread] - (child_11__Fsck)  SSLOptions - server.conf/[sslConfig]/sslVerifyServerCert is false disabling certificate validation; must be set to "true" for increased security
+10-21-2025 18:14:59.903 +0000 INFO  ProcessTracker [35344 MainThread] - (child_11__Fsck)  bloomfiltermaker - distinct_term_count failed (rc == WS_ETSIDX): probably because merged_lexicon.lex is missing
+10-21-2025 18:14:59.903 +0000 WARN  ProcessTracker [35344 MainThread] - (child_11__Fsck)  Fsck - Repair bloomfilter only, index=_audit, tryWarmThenCold=1, bucket=/opt/splunk/var/lib/splunk/audit/db/db_1760814376_1760796071_25, exists=1, localrc=101, failReason=Bloomfilter rebuild for bkt='/opt/splunk/var/lib/splunk/audit/db/db_1760814376_1760796071_25' failed; rc=-33
+10-21-2025 18:15:00.820 +0000 INFO  IndexerIf [35603 indexerPipe] - Asked to add or update bucket manifest values, bid=_metrics~227~72BB6D7B-C75A-46FC-9274-9F0BF63F6930
+10-21-2025 18:15:00.821 +0000 WARN  BucketMover [35603 indexerPipe] - BucketManifestUpdateExitHandler: process handling bucket="db_1760814376_1760796071_25" exited with code=101; search for any previous messages that might have been produced by the external process
+10-21-2025 18:15:00.822 +0000 INFO  IndexerIf [35603 indexerPipe] - Asked to add or update bucket manifest values, bid=_audit~25~72BB6D7B-C75A-46FC-9274-9F0BF63F6930
+10-21-2025 18:15:00.902 +0000 WARN  ProcessTracker [35344 MainThread] - (child_13__Fsck)  SSLOptions - server.conf/[sslConfig]/sslVerifyServerCert is false disabling certificate validation; must be set to "true" for increased security
+10-21-2025 18:15:00.905 +0000 INFO  ProcessTracker [35344 MainThread] - (child_13__Fsck)  bloomfiltermaker - distinct_term_count failed (rc == WS_ETSIDX): probably because merged_lexicon.lex is missing
+10-21-2025 18:15:00.905 +0000 WARN  ProcessTracker [35344 MainThread] - (child_13__Fsck)  Fsck - Repair bloomfilter only, index=_metrics, tryWarmThenCold=1, bucket=/opt/splunk/var/lib/splunk/_metrics/db/db_1760971147_1760969246_148, exists=1, localrc=101, failReason=Bloomfilter rebuild for bkt='/opt/splunk/var/lib/splunk/_metrics/db/db_1760971147_1760969246_148' failed; rc=-33
+10-21-2025 18:15:01.662 +0000 INFO  IndexWriter [35603 indexerPipe] - Creating hot bucket=hot_v1_234, idx=_metrics, bid=_metrics~234~72BB6D7B-C75A-46FC-9274-9F0BF63F6930, path_crc32=1142652131, event timestamp=1761070498, reason=suitable bucket not found, hot_buckets=4, max=6, sourcetype=splunk_metrics_log
+10-21-2025 18:15:01.664 +0000 INFO  DatabaseDirectoryManager [35603 indexerPipe] - idx=_metrics writing a bucket manifest in hotWarmPath='/opt/splunk/var/lib/splunk/_metrics/db' pendingBucketUpdates=6 innerLockTime=0.001. Reason='New hot bucket bid=_metrics~234~72BB6D7B-C75A-46FC-9274-9F0BF63F6930 bucket_action=add'
+10-21-2025 18:15:01.667 +0000 INFO  DatabaseDirectoryManager [35603 indexerPipe] - Finished writing bucket manifest in hotWarmPath=/opt/splunk/var/lib/splunk/_metrics/db duration=0.004
+10-21-2025 18:15:01.905 +0000 WARN  ProcessTracker [35344 MainThread] - (child_14__Fsck)  SSLOptions - server.conf/[sslConfig]/sslVerifyServerCert is false disabling certificate validation; must be set to "true" for increased security
+10-21-2025 18:15:01.907 +0000 INFO  ProcessTracker [35344 MainThread] - (child_14__Fsck)  bloomfiltermaker - distinct_term_count failed (rc == WS_ETSIDX): probably because merged_lexicon.lex is missing
+10-21-2025 18:15:01.907 +0000 WARN  ProcessTracker [35344 MainThread] - (child_14__Fsck)  Fsck - Repair bloomfilter only, index=_metrics, tryWarmThenCold=1, bucket=/opt/splunk/var/lib/splunk/_metrics/db/db_1760642997_1760642567_88, exists=1, localrc=101, failReason=Bloomfilter rebuild for bkt='/opt/splunk/var/lib/splunk/_metrics/db/db_1760642997_1760642567_88' failed; rc=-33
+10-21-2025 18:15:02.807 +0000 WARN  BucketMover [35603 indexerPipe] - BucketManifestUpdateExitHandler: process handling bucket="db_1760971147_1760969246_148" exited with code=101; search for any previous messages that might have been produced by the external process
+10-21-2025 18:15:02.807 +0000 INFO  IndexerIf [35603 indexerPipe] - Asked to add or update bucket manifest values, bid=_metrics~148~72BB6D7B-C75A-46FC-9274-9F0BF63F6930
+10-21-2025 18:15:03.798 +0000 WARN  BucketMover [35603 indexerPipe] - BucketManifestUpdateExitHandler: process handling bucket="db_1760642997_1760642567_88" exited with code=101; search for any previous messages that might have been produced by the external process
+10-21-2025 18:15:03.798 +0000 INFO  IndexerIf [35603 indexerPipe] - Asked to add or update bucket manifest values, bid=_metrics~88~72BB6D7B-C75A-46FC-9274-9F0BF63F6930
+10-21-2025 18:15:17.928 +0000 INFO  ScheduledViewsReaper [35560 DispatchReaper] - Scheduled views reaper run complete. Reaped count=0 scheduled views
+10-21-2025 18:15:17.930 +0000 INFO  CascadingReplicationManager [35560 DispatchReaper] - Using value for property max_replication_threads=2.
+10-21-2025 18:15:17.930 +0000 INFO  CascadingReplicationManager [35560 DispatchReaper] - Using value for property max_replication_jobs=5.
+10-21-2025 18:15:18.559 +0000 INFO  KeyManagerLocalhost [35907 TcpChannelThread] - Checking for localhost key pair
+10-21-2025 18:15:18.559 +0000 INFO  KeyManagerLocalhost [35907 TcpChannelThread] - Public key already exists: /opt/splunk/etc/auth/distServerKeys/trusted.pem
+10-21-2025 18:15:18.559 +0000 INFO  KeyManagerLocalhost [35907 TcpChannelThread] - Reading private key for localhost: /opt/splunk/etc/auth/distServerKeys/private.pem
+10-21-2025 18:15:18.561 +0000 INFO  KeyManagerLocalhost [35907 TcpChannelThread] - Finished reading private key for localhost: /opt/splunk/etc/auth/distServerKeys/private.pem
+10-21-2025 18:15:18.561 +0000 INFO  KeyManagerLocalhost [35907 TcpChannelThread] - Reading public key for localhost: /opt/splunk/etc/auth/distServerKeys/trusted.pem
+10-21-2025 18:15:18.562 +0000 INFO  KeyManagerLocalhost [35907 TcpChannelThread] - Finished reading public key for localhost: /opt/splunk/etc/auth/distServerKeys/trusted.pem
+10-21-2025 18:15:21.234 +0000 INFO  TailReader [35664 tailreader0] - Batch input finished reading file='/opt/splunk/var/spool/splunk/tracker.log'
+10-21-2025 18:15:22.979 +0000 INFO  BackgroundJobRestarter [35560 DispatchReaper] - inspect_count=9, restart_count=0
+10-21-2025 18:15:47.891 +0000 INFO  BackgroundJobRestarter [35560 DispatchReaper] - inspect_count=9, restart_count=0
+10-21-2025 18:15:49.204 +0000 INFO  DatabaseDirectoryManager [35563 IndexerService] - idx=_audit writing a bucket manifest in hotWarmPath='/opt/splunk/var/lib/splunk/audit/db' pendingBucketUpdates=1 innerLockTime=0.000. Reason='Buckets were rebuilt or tsidx-minified (bucket_count=1).'
+10-21-2025 18:15:49.208 +0000 INFO  DatabaseDirectoryManager [35563 IndexerService] - Finished writing bucket manifest in hotWarmPath=/opt/splunk/var/lib/splunk/audit/db duration=0.004
+10-21-2025 18:15:49.211 +0000 INFO  DatabaseDirectoryManager [35563 IndexerService] - idx=_configtracker writing a bucket manifest in hotWarmPath='/opt/splunk/var/lib/splunk/_configtracker/db' pendingBucketUpdates=0 innerLockTime=0.000. Reason='Buckets were rebuilt or tsidx-minified (bucket_count=1).'
+10-21-2025 18:15:49.212 +0000 INFO  DatabaseDirectoryManager [35563 IndexerService] - Finished writing bucket manifest in hotWarmPath=/opt/splunk/var/lib/splunk/_configtracker/db duration=0.001
+10-21-2025 18:15:49.214 +0000 INFO  DatabaseDirectoryManager [35563 IndexerService] - idx=_internal writing a bucket manifest in hotWarmPath='/opt/splunk/var/lib/splunk/_internaldb/db' pendingBucketUpdates=0 innerLockTime=0.000. Reason='Buckets were rebuilt or tsidx-minified (bucket_count=1).'
+10-21-2025 18:15:49.214 +0000 INFO  DatabaseDirectoryManager [35563 IndexerService] - Finished writing bucket manifest in hotWarmPath=/opt/splunk/var/lib/splunk/_internaldb/db duration=0.001
+10-21-2025 18:15:49.215 +0000 INFO  DatabaseDirectoryManager [35563 IndexerService] - idx=_introspection writing a bucket manifest in hotWarmPath='/opt/splunk/var/lib/splunk/_introspection/db' pendingBucketUpdates=0 innerLockTime=0.000. Reason='Buckets were rebuilt or tsidx-minified (bucket_count=1).'
+10-21-2025 18:15:49.216 +0000 INFO  DatabaseDirectoryManager [35563 IndexerService] - Finished writing bucket manifest in hotWarmPath=/opt/splunk/var/lib/splunk/_introspection/db duration=0.000
+10-21-2025 18:15:49.220 +0000 INFO  DatabaseDirectoryManager [35563 IndexerService] - idx=_metrics writing a bucket manifest in hotWarmPath='/opt/splunk/var/lib/splunk/_metrics/db' pendingBucketUpdates=2 innerLockTime=0.001. Reason='Buckets were rebuilt or tsidx-minified (bucket_count=7).'
+10-21-2025 18:15:49.223 +0000 INFO  DatabaseDirectoryManager [35563 IndexerService] - Finished writing bucket manifest in hotWarmPath=/opt/splunk/var/lib/splunk/_metrics/db duration=0.003
+10-21-2025 18:15:49.224 +0000 INFO  DatabaseDirectoryManager [35563 IndexerService] - idx=_telemetry writing a bucket manifest in hotWarmPath='/opt/splunk/var/lib/splunk/_telemetry/db' pendingBucketUpdates=0 innerLockTime=0.000. Reason='Buckets were rebuilt or tsidx-minified (bucket_count=1).'
+10-21-2025 18:15:49.224 +0000 INFO  DatabaseDirectoryManager [35563 IndexerService] - Finished writing bucket manifest in hotWarmPath=/opt/splunk/var/lib/splunk/_telemetry/db duration=0.000
+10-21-2025 18:15:49.224 +0000 INFO  DatabaseDirectoryManager [35563 IndexerService] - idx=main writing a bucket manifest in hotWarmPath='/opt/splunk/var/lib/splunk/defaultdb/db' pendingBucketUpdates=0 innerLockTime=0.000. Reason='Buckets were rebuilt or tsidx-minified (bucket_count=1).'
+10-21-2025 18:15:49.224 +0000 INFO  DatabaseDirectoryManager [35563 IndexerService] - Finished writing bucket manifest in hotWarmPath=/opt/splunk/var/lib/splunk/defaultdb/db duration=0.000
+10-21-2025 18:15:49.464 +0000 WARN  LocalAppsAdminHandler [36070 TcpChannelThread] - Using deprecated capabilities for write: admin_all_objects or edit_local_apps. See enable_install_apps in limits.conf
+10-21-2025 18:15:51.199 +0000 INFO  TailReader [35664 tailreader0] - Batch input finished reading file='/opt/splunk/var/spool/splunk/tracker.log'
+10-21-2025 18:15:58.169 +0000 INFO  SearchPipelineRun [36065 TcpChannelThread] - Search pipeline executed: sid=, pipeline=history | head | search | dedup | table .
+10-21-2025 18:16:03.024 +0000 WARN  LocalAppsAdminHandler [36554 TcpChannelThread] - Using deprecated capabilities for write: admin_all_objects or edit_local_apps. See enable_install_apps in limits.conf
+10-21-2025 18:16:03.277 +0000 WARN  LocalAppsAdminHandler [36554 TcpChannelThread] - Using deprecated capabilities for write: admin_all_objects or edit_local_apps. See enable_install_apps in limits.conf
+10-21-2025 18:16:03.629 +0000 WARN  LocalAppsAdminHandler [36065 TcpChannelThread] - Using deprecated capabilities for write: admin_all_objects or edit_local_apps. See enable_install_apps in limits.conf
+10-21-2025 18:16:13.072 +0000 WARN  LocalAppsAdminHandler [36554 TcpChannelThread] - Using deprecated capabilities for write: admin_all_objects or edit_local_apps. See enable_install_apps in limits.conf
+10-21-2025 18:16:13.533 +0000 WARN  LocalAppsAdminHandler [36554 TcpChannelThread] - Using deprecated capabilities for write: admin_all_objects or edit_local_apps. See enable_install_apps in limits.conf
+10-21-2025 18:16:21.110 +0000 INFO  TailReader [35664 tailreader0] - Batch input finished reading file='/opt/splunk/var/spool/splunk/tracker.log'
+10-21-2025 18:16:24.179 +0000 WARN  LocalAppsAdminHandler [36070 TcpChannelThread] - Using deprecated capabilities for write: admin_all_objects or edit_local_apps. See enable_install_apps in limits.conf
+10-21-2025 18:16:24.464 +0000 WARN  LocalAppsAdminHandler [36065 TcpChannelThread] - Using deprecated capabilities for write: admin_all_objects or edit_local_apps. See enable_install_apps in limits.conf
+10-21-2025 18:16:24.862 +0000 WARN  LocalAppsAdminHandler [36070 TcpChannelThread] - Using deprecated capabilities for write: admin_all_objects or edit_local_apps. See enable_install_apps in limits.conf
+10-21-2025 18:16:51.205 +0000 INFO  TailReader [35664 tailreader0] - Batch input finished reading file='/opt/splunk/var/spool/splunk/tracker.log'
+10-21-2025 18:16:58.775 +0000 INFO  IOWaitHealthReport [35623 ExecProcessor] - Starting IOWaitHealthReport
+10-21-2025 18:17:21.206 +0000 INFO  TailReader [35664 tailreader0] - Batch input finished reading file='/opt/splunk/var/spool/splunk/tracker.log'
+10-21-2025 18:17:51.201 +0000 INFO  TailReader [35664 tailreader0] - Batch input finished reading file='/opt/splunk/var/spool/splunk/tracker.log'
+10-21-2025 18:18:21.210 +0000 INFO  TailReader [35664 tailreader0] - Batch input finished reading file='/opt/splunk/var/spool/splunk/tracker.log'
+10-21-2025 18:18:51.200 +0000 INFO  TailReader [35664 tailreader0] - Batch input finished reading file='/opt/splunk/var/spool/splunk/tracker.log'
+10-21-2025 18:19:21.135 +0000 INFO  TailReader [35664 tailreader0] - Batch input finished reading file='/opt/splunk/var/spool/splunk/tracker.log'
+10-21-2025 18:19:51.085 +0000 INFO  TailReader [35664 tailreader0] - Batch input finished reading file='/opt/splunk/var/spool/splunk/tracker.log'
+10-21-2025 18:20:00.740 +0000 INFO  sendmodalert [37269 AlertNotifierWorker-0] - Invoking modular alert action=addtotriggeredalerts for search="Failed SSH brute-force (PoC)" sid="scheduler__nobody__search__RMD53bb7fac1fe798abf_at_1761070800_3" in app="search" owner="nobody" type="saved"
+10-21-2025 18:20:00.753 +0000 ERROR sendmodalert [37269 AlertNotifierWorker-0] - Error in 'sendalert' command: Alert action "addtotriggeredalerts" not found.
+10-21-2025 18:20:00.754 +0000 ERROR SearchScheduler [37269 AlertNotifierWorker-0] - Error in 'sendalert' command: Alert action "addtotriggeredalerts" not found., search='sendalert addtotriggeredalerts results_file="/opt/splunk/var/run/splunk/dispatch/scheduler__nobody__search__RMD53bb7fac1fe798abf_at_1761070800_3/per_result_alert/tmp_0.csv.gz" results_link="http://ubuntu-soc:8000/app/search/search?q=%7Cloadjob%20scheduler__nobody__search__RMD53bb7fac1fe798abf_at_1761070800_3%20%7C%20head%201%20%7C%20tail%201&earliest=0&latest=now"'
+10-21-2025 18:20:00.755 +0000 INFO  sendmodalert [37269 AlertNotifierWorker-0] - Invoking modular alert action=logevent for search="Failed SSH brute-force (PoC)" sid="scheduler__nobody__search__RMD53bb7fac1fe798abf_at_1761070800_3" in app="search" owner="nobody" type="saved"
+10-21-2025 18:20:00.892 +0000 INFO  IndexWriter [35603 indexerPipe] - Creating hot bucket=hot_v1_7, idx=main, bid=main~7~72BB6D7B-C75A-46FC-9274-9F0BF63F6930, path_crc32=1797490750, event timestamp=1761070800, reason=suitable bucket not found, hot_buckets=0, max=10, sourcetype=generic_single_line
+10-21-2025 18:20:00.893 +0000 INFO  DatabaseDirectoryManager [35603 indexerPipe] - idx=main writing a bucket manifest in hotWarmPath='/opt/splunk/var/lib/splunk/defaultdb/db' pendingBucketUpdates=1 innerLockTime=0.000. Reason='New hot bucket bid=main~7~72BB6D7B-C75A-46FC-9274-9F0BF63F6930 bucket_action=add'
+10-21-2025 18:20:00.893 +0000 INFO  DatabaseDirectoryManager [35603 indexerPipe] - Finished writing bucket manifest in hotWarmPath=/opt/splunk/var/lib/splunk/defaultdb/db duration=0.000
+10-21-2025 18:20:00.903 +0000 INFO  sendmodalert [37269 AlertNotifierWorker-0] - action=logevent - Alert action script completed in duration=133 ms with exit code=0
+10-21-2025 18:20:21.211 +0000 INFO  TailReader [35664 tailreader0] - Batch input finished reading file='/opt/splunk/var/spool/splunk/tracker.log'
+10-21-2025 18:20:51.202 +0000 INFO  TailReader [35664 tailreader0] - Batch input finished reading file='/opt/splunk/var/spool/splunk/tracker.log'
+10-21-2025 18:21:21.201 +0000 INFO  TailReader [35664 tailreader0] - Batch input finished reading file='/opt/splunk/var/spool/splunk/tracker.log'
+10-21-2025 18:21:51.175 +0000 INFO  TailReader [35664 tailreader0] - Batch input finished reading file='/opt/splunk/var/spool/splunk/tracker.log'
+10-21-2025 18:22:21.212 +0000 INFO  TailReader [35664 tailreader0] - Batch input finished reading file='/opt/splunk/var/spool/splunk/tracker.log'
+10-21-2025 18:22:51.199 +0000 INFO  TailReader [35664 tailreader0] - Batch input finished reading file='/opt/splunk/var/spool/splunk/tracker.log'
+10-21-2025 18:23:21.206 +0000 INFO  TailReader [35664 tailreader0] - Batch input finished reading file='/opt/splunk/var/spool/splunk/tracker.log'
+10-21-2025 18:23:51.201 +0000 INFO  TailReader [35664 tailreader0] - Batch input finished reading file='/opt/splunk/var/spool/splunk/tracker.log'
+10-21-2025 18:24:21.201 +0000 INFO  TailReader [35664 tailreader0] - Batch input finished reading file='/opt/splunk/var/spool/splunk/tracker.log'
+10-21-2025 18:24:50.652 +0000 INFO  IndexWriter [35603 indexerPipe] - Creating hot bucket=hot_v1_44, idx=_telemetry, bid=_telemetry~44~72BB6D7B-C75A-46FC-9274-9F0BF63F6930, path_crc32=4140469450, event timestamp=1761071090, reason=suitable bucket not found, hot_buckets=0, max=3, sourcetype=splunk_telemetry
+10-21-2025 18:24:50.653 +0000 INFO  DatabaseDirectoryManager [35603 indexerPipe] - idx=_telemetry writing a bucket manifest in hotWarmPath='/opt/splunk/var/lib/splunk/_telemetry/db' pendingBucketUpdates=1 innerLockTime=0.000. Reason='New hot bucket bid=_telemetry~44~72BB6D7B-C75A-46FC-9274-9F0BF63F6930 bucket_action=add'
+10-21-2025 18:24:50.653 +0000 INFO  DatabaseDirectoryManager [35603 indexerPipe] - Finished writing bucket manifest in hotWarmPath=/opt/splunk/var/lib/splunk/_telemetry/db duration=0.001
+10-21-2025 18:24:51.092 +0000 INFO  TailReader [35664 tailreader0] - Batch input finished reading file='/opt/splunk/var/spool/splunk/tracker.log'
+10-21-2025 18:25:21.200 +0000 INFO  TailReader [35664 tailreader0] - Batch input finished reading file='/opt/splunk/var/spool/splunk/tracker.log'
+10-21-2025 18:25:51.203 +0000 INFO  TailReader [35664 tailreader0] - Batch input finished reading file='/opt/splunk/var/spool/splunk/tracker.log'
+10-21-2025 18:26:21.202 +0000 INFO  TailReader [35664 tailreader0] - Batch input finished reading file='/opt/splunk/var/spool/splunk/tracker.log'
+10-21-2025 18:26:51.204 +0000 INFO  TailReader [35664 tailreader0] - Batch input finished reading file='/opt/splunk/var/spool/splunk/tracker.log'
+10-21-2025 18:27:21.201 +0000 INFO  TailReader [35664 tailreader0] - Batch input finished reading file='/opt/splunk/var/spool/splunk/tracker.log'
+10-21-2025 18:27:51.198 +0000 INFO  TailReader [35664 tailreader0] - Batch input finished reading file='/opt/splunk/var/spool/splunk/tracker.log'
+10-21-2025 18:28:21.211 +0000 INFO  TailReader [35664 tailreader0] - Batch input finished reading file='/opt/splunk/var/spool/splunk/tracker.log'
+10-21-2025 18:28:51.203 +0000 INFO  TailReader [35664 tailreader0] - Batch input finished reading file='/opt/splunk/var/spool/splunk/tracker.log'
+10-21-2025 18:29:00.436 +0000 WARN  LocalAppsAdminHandler [36065 TcpChannelThread] - Using deprecated capabilities for write: admin_all_objects or edit_local_apps. See enable_install_apps in limits.conf
+10-21-2025 18:29:02.784 +0000 INFO  SearchPipelineRun [38065 TcpChannelThread] - Search pipeline executed: sid=rt_md_1761071341.26, pipeline=stats .\n				3 similar messages suppressed.  First occurred at: Tue Oct 21 18:20:00 2025
+10-21-2025 18:29:05.798 +0000 INFO  SearchPipelineRun [38065 TcpChannelThread] - Search pipeline executed: sid=rt_md_1761071341.26, pipeline=stats .
+10-21-2025 18:29:13.869 +0000 WARN  LocalAppsAdminHandler [38065 TcpChannelThread] - Using deprecated capabilities for write: admin_all_objects or edit_local_apps. See enable_install_apps in limits.conf
+10-21-2025 18:29:14.017 +0000 WARN  LocalAppsAdminHandler [38065 TcpChannelThread] - Using deprecated capabilities for write: admin_all_objects or edit_local_apps. See enable_install_apps in limits.conf
+10-21-2025 18:29:14.348 +0000 WARN  LocalAppsAdminHandler [36065 TcpChannelThread] - Using deprecated capabilities for write: admin_all_objects or edit_local_apps. See enable_install_apps in limits.conf
+10-21-2025 18:29:21.225 +0000 INFO  TailReader [35664 tailreader0] - Batch input finished reading file='/opt/splunk/var/spool/splunk/tracker.log'
+10-21-2025 18:29:51.040 +0000 INFO  TailReader [35664 tailreader0] - Batch input finished reading file='/opt/splunk/var/spool/splunk/tracker.log'
+10-21-2025 18:30:18.202 +0000 INFO  WatchedFile [35664 tailreader0] - File too small to check seekcrc, probably truncated.  Will re-read entire file='/opt/splunk/var/spool/splunk/tracker.log'.
+10-21-2025 18:30:21.206 +0000 INFO  TailReader [35664 tailreader0] - Batch input finished reading file='/opt/splunk/var/spool/splunk/tracker.log'
+10-21-2025 18:30:51.197 +0000 INFO  TailReader [35664 tailreader0] - Batch input finished reading file='/opt/splunk/var/spool/splunk/tracker.log'
+10-21-2025 18:31:21.200 +0000 INFO  TailReader [35664 tailreader0] - Batch input finished reading file='/opt/splunk/var/spool/splunk/tracker.log'
+10-21-2025 18:31:24.192 +0000 WARN  LocalAppsAdminHandler [38060 TcpChannelThread] - Using deprecated capabilities for write: admin_all_objects or edit_local_apps. See enable_install_apps in limits.conf
+10-21-2025 18:31:51.216 +0000 INFO  TailReader [35664 tailreader0] - Batch input finished reading file='/opt/splunk/var/spool/splunk/tracker.log'
+10-21-2025 18:32:15.113 +0000 WARN  LocalAppsAdminHandler [38060 TcpChannelThread] - Using deprecated capabilities for write: admin_all_objects or edit_local_apps. See enable_install_apps in limits.conf
+10-21-2025 18:32:15.505 +0000 WARN  LocalAppsAdminHandler [38060 TcpChannelThread] - Using deprecated capabilities for write: admin_all_objects or edit_local_apps. See enable_install_apps in limits.conf
+10-21-2025 18:32:21.083 +0000 INFO  TailReader [35664 tailreader0] - Batch input finished reading file='/opt/splunk/var/spool/splunk/tracker.log'
+10-21-2025 18:32:25.980 +0000 WARN  LocalAppsAdminHandler [38621 TcpChannelThread] - Using deprecated capabilities for write: admin_all_objects or edit_local_apps. See enable_install_apps in limits.conf
+10-21-2025 18:32:26.553 +0000 WARN  LocalAppsAdminHandler [38061 TcpChannelThread] - Using deprecated capabilities for write: admin_all_objects or edit_local_apps. See enable_install_apps in limits.conf
+10-21-2025 18:32:26.900 +0000 WARN  LocalAppsAdminHandler [38061 TcpChannelThread] - Using deprecated capabilities for write: admin_all_objects or edit_local_apps. See enable_install_apps in limits.conf
+10-21-2025 18:32:49.539 +0000 WARN  LocalAppsAdminHandler [38550 TcpChannelThread] - Using deprecated capabilities for write: admin_all_objects or edit_local_apps. See enable_install_apps in limits.conf
+10-21-2025 18:32:49.589 +0000 WARN  LocalAppsAdminHandler [38060 TcpChannelThread] - Using deprecated capabilities for write: admin_all_objects or edit_local_apps. See enable_install_apps in limits.conf
+10-21-2025 18:32:51.205 +0000 INFO  TailReader [35664 tailreader0] - Batch input finished reading file='/opt/splunk/var/spool/splunk/tracker.log'
+10-21-2025 18:32:52.274 +0000 WARN  LocalAppsAdminHandler [38061 TcpChannelThread] - Using deprecated capabilities for write: admin_all_objects or edit_local_apps. See enable_install_apps in limits.conf
+10-21-2025 18:32:52.748 +0000 WARN  LocalAppsAdminHandler [38061 TcpChannelThread] - Using deprecated capabilities for write: admin_all_objects or edit_local_apps. See enable_install_apps in limits.conf
+10-21-2025 18:33:21.205 +0000 INFO  TailReader [35664 tailreader0] - Batch input finished reading file='/opt/splunk/var/spool/splunk/tracker.log'
+10-21-2025 18:33:21.883 +0000 WARN  LocalAppsAdminHandler [38622 TcpChannelThread] - Using deprecated capabilities for write: admin_all_objects or edit_local_apps. See enable_install_apps in limits.conf
+10-21-2025 18:33:22.315 +0000 WARN  LocalAppsAdminHandler [38622 TcpChannelThread] - Using deprecated capabilities for write: admin_all_objects or edit_local_apps. See enable_install_apps in limits.conf
+10-21-2025 18:33:22.598 +0000 WARN  LocalAppsAdminHandler [38622 TcpChannelThread] - Using deprecated capabilities for write: admin_all_objects or edit_local_apps. See enable_install_apps in limits.conf
+10-21-2025 18:33:51.209 +0000 INFO  TailReader [35664 tailreader0] - Batch input finished reading file='/opt/splunk/var/spool/splunk/tracker.log'
+10-21-2025 18:33:53.235 +0000 WARN  LocalAppsAdminHandler [38621 TcpChannelThread] - Using deprecated capabilities for write: admin_all_objects or edit_local_apps. See enable_install_apps in limits.conf
+10-21-2025 18:33:53.707 +0000 WARN  LocalAppsAdminHandler [38621 TcpChannelThread] - Using deprecated capabilities for write: admin_all_objects or edit_local_apps. See enable_install_apps in limits.conf
+10-21-2025 18:33:54.031 +0000 WARN  LocalAppsAdminHandler [38061 TcpChannelThread] - Using deprecated capabilities for write: admin_all_objects or edit_local_apps. See enable_install_apps in limits.conf
+10-21-2025 18:33:57.672 +0000 WARN  LocalAppsAdminHandler [38699 TcpChannelThread] - Using deprecated capabilities for write: admin_all_objects or edit_local_apps. See enable_install_apps in limits.conf
+10-21-2025 18:33:57.885 +0000 WARN  LocalAppsAdminHandler [38061 TcpChannelThread] - Using deprecated capabilities for write: admin_all_objects or edit_local_apps. See enable_install_apps in limits.conf
+10-21-2025 18:33:58.288 +0000 WARN  LocalAppsAdminHandler [38699 TcpChannelThread] - Using deprecated capabilities for write: admin_all_objects or edit_local_apps. See enable_install_apps in limits.conf
+10-21-2025 18:34:02.904 +0000 WARN  LocalAppsAdminHandler [38061 TcpChannelThread] - Using deprecated capabilities for write: admin_all_objects or edit_local_apps. See enable_install_apps in limits.conf
+10-21-2025 18:34:21.220 +0000 INFO  TailReader [35664 tailreader0] - Batch input finished reading file='/opt/splunk/var/spool/splunk/tracker.log'
+10-21-2025 18:34:51.085 +0000 INFO  TailReader [35664 tailreader0] - Batch input finished reading file='/opt/splunk/var/spool/splunk/tracker.log'
+10-21-2025 18:34:52.144 +0000 INFO  WatchedFile [35664 tailreader0] - Will begin reading at offset=0 for file='/opt/splunk/var/log/introspection/kvstore.log'.
+10-21-2025 18:34:57.099 +0000 WARN  LocalAppsAdminHandler [38699 TcpChannelThread] - Using deprecated capabilities for write: admin_all_objects or edit_local_apps. See enable_install_apps in limits.conf
+10-21-2025 18:34:57.341 +0000 WARN  LocalAppsAdminHandler [38699 TcpChannelThread] - Using deprecated capabilities for write: admin_all_objects or edit_local_apps. See enable_install_apps in limits.conf
+10-21-2025 18:34:57.734 +0000 WARN  LocalAppsAdminHandler [38550 TcpChannelThread] - Using deprecated capabilities for write: admin_all_objects or edit_local_apps. See enable_install_apps in limits.conf
+10-21-2025 18:34:59.684 +0000 WARN  LocalAppsAdminHandler [38061 TcpChannelThread] - Using deprecated capabilities for write: admin_all_objects or edit_local_apps. See enable_install_apps in limits.conf
+10-21-2025 18:35:01.058 +0000 INFO  SearchPipelineRun [39055 AlertNotifierWorker-0] - Search pipeline executed: sid=scheduler__nobody__search__RMD53bb7fac1fe798abf_at_1761071700_6, pipeline=sendalert .\n				3 similar messages suppressed.  First occurred at: Tue Oct 21 18:29:05 2025
+10-21-2025 18:35:01.059 +0000 INFO  sendmodalert [39055 AlertNotifierWorker-0] - Invoking modular alert action=addtotriggeredalerts for search="Failed SSH brute-force (PoC)" sid="scheduler__nobody__search__RMD53bb7fac1fe798abf_at_1761071700_6" in app="search" owner="nobody" type="saved"
+10-21-2025 18:35:01.064 +0000 ERROR sendmodalert [39055 AlertNotifierWorker-0] - Error in 'sendalert' command: Alert action "addtotriggeredalerts" not found.
+10-21-2025 18:35:01.065 +0000 ERROR SearchScheduler [39055 AlertNotifierWorker-0] - Error in 'sendalert' command: Alert action "addtotriggeredalerts" not found., search='sendalert addtotriggeredalerts results_file="/opt/splunk/var/run/splunk/dispatch/scheduler__nobody__search__RMD53bb7fac1fe798abf_at_1761071700_6/per_result_alert/tmp_0.csv.gz" results_link="http://ubuntu-soc:8000/app/search/search?q=%7Cloadjob%20scheduler__nobody__search__RMD53bb7fac1fe798abf_at_1761071700_6%20%7C%20head%201%20%7C%20tail%201&earliest=0&latest=now"'
+10-21-2025 18:35:01.066 +0000 INFO  SearchPipelineRun [39055 AlertNotifierWorker-0] - Search pipeline executed: sid=scheduler__nobody__search__RMD53bb7fac1fe798abf_at_1761071700_6, pipeline=sendalert .
+10-21-2025 18:35:01.066 +0000 INFO  sendmodalert [39055 AlertNotifierWorker-0] - Invoking modular alert action=logevent for search="Failed SSH brute-force (PoC)" sid="scheduler__nobody__search__RMD53bb7fac1fe798abf_at_1761071700_6" in app="search" owner="nobody" type="saved"
+10-21-2025 18:35:01.217 +0000 INFO  sendmodalert [39055 AlertNotifierWorker-0] - action=logevent - Alert action script completed in duration=145 ms with exit code=0
+10-21-2025 18:35:21.214 +0000 INFO  TailReader [35664 tailreader0] - Batch input finished reading file='/opt/splunk/var/spool/splunk/tracker.log'
+10-21-2025 18:35:51.049 +0000 INFO  TailReader [35664 tailreader0] - Batch input finished reading file='/opt/splunk/var/spool/splunk/tracker.log'
+10-21-2025 18:36:21.199 +0000 INFO  TailReader [35664 tailreader0] - Batch input finished reading file='/opt/splunk/var/spool/splunk/tracker.log'
+10-21-2025 18:36:51.198 +0000 INFO  TailReader [35664 tailreader0] - Batch input finished reading file='/opt/splunk/var/spool/splunk/tracker.log'
+10-21-2025 18:37:21.210 +0000 INFO  TailReader [35664 tailreader0] - Batch input finished reading file='/opt/splunk/var/spool/splunk/tracker.log'
+10-21-2025 18:37:51.209 +0000 INFO  TailReader [35664 tailreader0] - Batch input finished reading file='/opt/splunk/var/spool/splunk/tracker.log'
+10-21-2025 18:38:02.426 +0000 WARN  LocalAppsAdminHandler [40075 TcpChannelThread] - Using deprecated capabilities for write: admin_all_objects or edit_local_apps. See enable_install_apps in limits.conf
+10-21-2025 18:38:02.871 +0000 WARN  LocalAppsAdminHandler [40075 TcpChannelThread] - Using deprecated capabilities for write: admin_all_objects or edit_local_apps. See enable_install_apps in limits.conf
+10-21-2025 18:38:14.204 +0000 WARN  LocalAppsAdminHandler [40075 TcpChannelThread] - Using deprecated capabilities for write: admin_all_objects or edit_local_apps. See enable_install_apps in limits.conf
+10-21-2025 18:38:14.544 +0000 WARN  LocalAppsAdminHandler [40075 TcpChannelThread] - Using deprecated capabilities for write: admin_all_objects or edit_local_apps. See enable_install_apps in limits.conf
+10-21-2025 18:38:14.892 +0000 WARN  LocalAppsAdminHandler [40075 TcpChannelThread] - Using deprecated capabilities for write: admin_all_objects or edit_local_apps. See enable_install_apps in limits.conf
+10-21-2025 18:38:16.891 +0000 WARN  LocalAppsAdminHandler [40138 TcpChannelThread] - Using deprecated capabilities for write: admin_all_objects or edit_local_apps. See enable_install_apps in limits.conf
+10-21-2025 18:38:18.199 +0000 INFO  WatchedFile [35664 tailreader0] - File too small to check seekcrc, probably truncated.  Will re-read entire file='/opt/splunk/var/spool/splunk/tracker.log'.
+10-21-2025 18:38:19.318 +0000 INFO  SearchPipelineRun [40075 TcpChannelThread] - Search pipeline executed: sid=rt_md_1761071897.69, pipeline=stats .\n				15 similar messages suppressed.  First occurred at: Tue Oct 21 18:35:02 2025
+10-21-2025 18:38:21.174 +0000 INFO  TailReader [35664 tailreader0] - Batch input finished reading file='/opt/splunk/var/spool/splunk/tracker.log'
+10-21-2025 18:38:51.197 +0000 INFO  TailReader [35664 tailreader0] - Batch input finished reading file='/opt/splunk/var/spool/splunk/tracker.log'
+10-21-2025 18:39:21.217 +0000 INFO  TailReader [35664 tailreader0] - Batch input finished reading file='/opt/splunk/var/spool/splunk/tracker.log'
+10-21-2025 18:39:51.086 +0000 INFO  TailReader [35664 tailreader0] - Batch input finished reading file='/opt/splunk/var/spool/splunk/tracker.log'
+10-21-2025 18:40:21.207 +0000 INFO  TailReader [35664 tailreader0] - Batch input finished reading file='/opt/splunk/var/spool/splunk/tracker.log'
+10-21-2025 18:40:51.190 +0000 INFO  TailReader [35664 tailreader0] - Batch input finished reading file='/opt/splunk/var/spool/splunk/tracker.log'
+10-21-2025 18:41:21.215 +0000 INFO  TailReader [35664 tailreader0] - Batch input finished reading file='/opt/splunk/var/spool/splunk/tracker.log'
+10-21-2025 18:41:51.095 +0000 INFO  TailReader [35664 tailreader0] - Batch input finished reading file='/opt/splunk/var/spool/splunk/tracker.log'
+10-21-2025 18:42:21.205 +0000 INFO  TailReader [35664 tailreader0] - Batch input finished reading file='/opt/splunk/var/spool/splunk/tracker.log'
+10-21-2025 18:42:51.089 +0000 INFO  TailReader [35664 tailreader0] - Batch input finished reading file='/opt/splunk/var/spool/splunk/tracker.log'
+10-21-2025 18:43:21.205 +0000 INFO  TailReader [35664 tailreader0] - Batch input finished reading file='/opt/splunk/var/spool/splunk/tracker.log'
+10-21-2025 18:43:51.202 +0000 INFO  TailReader [35664 tailreader0] - Batch input finished reading file='/opt/splunk/var/spool/splunk/tracker.log'
+10-21-2025 18:44:21.229 +0000 INFO  TailReader [35664 tailreader0] - Batch input finished reading file='/opt/splunk/var/spool/splunk/tracker.log'
+10-21-2025 18:44:51.055 +0000 INFO  TailReader [35664 tailreader0] - Batch input finished reading file='/opt/splunk/var/spool/splunk/tracker.log'
+10-21-2025 18:45:21.212 +0000 INFO  TailReader [35664 tailreader0] - Batch input finished reading file='/opt/splunk/var/spool/splunk/tracker.log'
+10-21-2025 18:45:51.219 +0000 INFO  TailReader [35664 tailreader0] - Batch input finished reading file='/opt/splunk/var/spool/splunk/tracker.log'
+10-21-2025 18:46:21.258 +0000 INFO  TailReader [35664 tailreader0] - Batch input finished reading file='/opt/splunk/var/spool/splunk/tracker.log'
+10-21-2025 18:46:51.212 +0000 INFO  TailReader [35664 tailreader0] - Batch input finished reading file='/opt/splunk/var/spool/splunk/tracker.log'
+10-21-2025 18:47:21.055 +0000 INFO  TailReader [35664 tailreader0] - Batch input finished reading file='/opt/splunk/var/spool/splunk/tracker.log'
+10-21-2025 18:47:51.228 +0000 INFO  TailReader [35664 tailreader0] - Batch input finished reading file='/opt/splunk/var/spool/splunk/tracker.log'
+10-21-2025 18:48:21.209 +0000 INFO  TailReader [35664 tailreader0] - Batch input finished reading file='/opt/splunk/var/spool/splunk/tracker.log'
+10-21-2025 18:48:51.225 +0000 INFO  TailReader [35664 tailreader0] - Batch input finished reading file='/opt/splunk/var/spool/splunk/tracker.log'
+10-21-2025 18:49:21.203 +0000 INFO  TailReader [35664 tailreader0] - Batch input finished reading file='/opt/splunk/var/spool/splunk/tracker.log'
+10-21-2025 18:49:51.054 +0000 INFO  TailReader [35664 tailreader0] - Batch input finished reading file='/opt/splunk/var/spool/splunk/tracker.log'
+10-21-2025 18:50:21.209 +0000 INFO  TailReader [35664 tailreader0] - Batch input finished reading file='/opt/splunk/var/spool/splunk/tracker.log'
+10-21-2025 18:50:51.213 +0000 INFO  TailReader [35664 tailreader0] - Batch input finished reading file='/opt/splunk/var/spool/splunk/tracker.log'
+10-21-2025 18:51:21.209 +0000 INFO  TailReader [35664 tailreader0] - Batch input finished reading file='/opt/splunk/var/spool/splunk/tracker.log'
+10-21-2025 18:51:51.199 +0000 INFO  TailReader [35664 tailreader0] - Batch input finished reading file='/opt/splunk/var/spool/splunk/tracker.log'
+10-21-2025 18:52:21.209 +0000 INFO  TailReader [35664 tailreader0] - Batch input finished reading file='/opt/splunk/var/spool/splunk/tracker.log'
+10-21-2025 18:52:53.970 +0000 INFO  TailReader [35664 tailreader0] - Batch input finished reading file='/opt/splunk/var/spool/splunk/tracker.log'
+10-21-2025 18:53:23.858 +0000 INFO  TailReader [35664 tailreader0] - Batch input finished reading file='/opt/splunk/var/spool/splunk/tracker.log'
+10-21-2025 18:53:48.037 +0000 INFO  WatchedFile [35664 tailreader0] - File too small to check seekcrc, probably truncated.  Will re-read entire file='/opt/splunk/var/spool/splunk/tracker.log'.
+10-21-2025 18:53:53.864 +0000 INFO  TailReader [35664 tailreader0] - Batch input finished reading file='/opt/splunk/var/spool/splunk/tracker.log'
+10-21-2025 18:54:23.957 +0000 INFO  TailReader [35664 tailreader0] - Batch input finished reading file='/opt/splunk/var/spool/splunk/tracker.log'
