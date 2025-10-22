@@ -1,43 +1,51 @@
-# Hi - I'm Yurii Kholmohorov
-Cybersecurity Trainee focused on defensive security, log analysis, SIEM and incident triage. Building hands-on projects to prepare for SOC L1 roles.
+# Linux SSH Brute-force Detection - Splunk PoC
+
+## Overview
+This repository is a minimal proof-of-concept (PoC) demonstrating detection of SSH brute-force attempts using Splunk. The project contains the detection SPL query, a saved Splunk alert configuration, a small simulator to generate failed-login events for testing, sample logs and screenshots proving the alert fired.
+
+**Goal:** show how to detect repeated "Failed password" events from a single source IP and trigger a Splunk alert.
 
 ---
 
-## Goal
-Open to remote/hybrid entry-level cybersecurity positions (SOC L1, internships, apprenticeships).
+## Repository layout
+linux-splunk-ssh-bruteforce/
+├─ README.md
+├─ REPRO.md
+├─ LICENSE
+├─ configs/
+│ └─ savedsearches.conf
+├─ queries/
+│ └─ search_spl.txt
+├─ data/
+│ └─ simulate_bruteforce.sh
+├─ logs/
+│ ├─ raw_auth_tail.log
+│ ├─ sample_auth.log
+│ ├─ splunk_search_results.json
+│ ├─ splunkd_tail.log
+│ └─ triggered_alerts.txt
+└─ screenshots/
+├─ alert_triggered.png
+├─ btool_output.png
+├─ permissions_and_owner.png
+├─ savedsearches_conf.png
+├─ simulator_run.png
+├─ splunk_events_list.png
+├─ splunk_stats_results.png
+├─ tail_authlog.png
+└─ triggered_alerts_page.png
 
 ---
 
-## What’s inside
-Each project under `projects/` contains:
-- `README.md` - short reproduction steps  
-- `configs/` - config files (sysmon, filebeat, logstash, etc.)  
-- `queries/` - detection queries (SPL, KQL, Kibana DSL)  
-- `data/` - anonymized sample logs  
-- `reports/` - 1-page triage/incident reports  
-- `screenshots/` - dashboards / alerts
+## Detection SPL (queries/search_spl.txt)
+Use this search in Splunk (or save it as `queries/search_spl.txt`):
 
----
-
-## Featured projects
-- **linux-splunk-ssh-bruteforce** - Failed SSH detection (Splunk).  
-- **elk-filebeat-pipeline** - Filebeat → Logstash → Kibana pipeline.  
-- **sysmon-triage** - Windows + Sysmon triage.
-
----
-
-## Quick reproduce (high-level)
-1. Deploy environment (Docker/VM or local Splunk/ELK).  
-2. Load `projects/<name>/configs` and `data`.  
-3. Run search from `projects/<name>/queries`, review `reports/` and `screenshots/`.
-
----
-
-## 📬 Contact
-- LinkedIn: https://www.linkedin.com/in/yurii-kholmohorov-09725628a
-- Email: hibiscus11114@gmail.com
-
----
-
-## License
-MIT License - see `LICENSE` file.
+```spl
+index=linux_auth sourcetype=linux_secure "Failed password"
+| rex "Failed password for (?:invalid user )?(?<user>\S+) from (?<src_ip>\d{1,3}(?:\.\d{1,3}){3}) port (?<port>\d+)"
+| stats count as failed_count earliest(_time) as first_seen latest(_time) as last_seen by src_ip
+| where failed_count >= 5
+```
+Notes
+- Replace index and sourcetype if your ingestion uses different names.
+- Tune failed_count threshold to your environment: 5 is an example for lab/demo.
