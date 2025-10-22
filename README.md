@@ -19,10 +19,10 @@ Each project under `projects/` contains:
 
 ---
 
-## Featured projects
-- **linux-splunk-ssh-bruteforce** - Failed SSH detection (Splunk).  
-- **elk-filebeat-pipeline** - Filebeat → Logstash → Kibana pipeline.  
-- **sysmon-triage** - Windows + Sysmon triage.
+## Projects
+- [x] **linux-splunk-ssh-bruteforce** - Failed SSH detection (Splunk).  
+- [ ] **elk-filebeat-pipeline** - Filebeat → Logstash → Kibana pipeline.  
+- [ ] **sysmon-triage** - Windows + Sysmon triage.
 
 ---
 
