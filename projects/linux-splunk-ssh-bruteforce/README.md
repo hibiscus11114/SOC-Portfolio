@@ -43,7 +43,7 @@ linux-splunk-ssh-bruteforce/
 ```
 ---
 
-## Detection SPL (queries/failed_ssh.spl)
+## Detection queries (queries/failed_ssh.spl)
 Use this search in Splunk (or save it as `queries/failed_ssh.spl`):
 
 ```spl
