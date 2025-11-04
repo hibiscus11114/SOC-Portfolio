@@ -106,63 +106,33 @@ echo "Simulated $ATTEMPTS failed SSH attempts from $IP"
 ```
 
 ## logs/ - file descriptions
-
 ### logs/raw_auth_tail.log
-
 Raw tail output of /var/log/auth.log captured during the script run.
-
 ### logs/sample_auth.log
-
 Trimmed sample of auth.log entries used for local testing.
-
 ### logs/splunk_search_results.json
-
 JSON export of Splunk search results.
-
 ### logs/splunkd_tail.log
-
 Extract (tail) of splunkd.log captured while the saved search ran.
-
 ### logs/triggered_alerts.txt
-
 Plain text export of the triggered alerts listing.
 
-
 ## screenshots/ - image descriptions
-
 ### screenshots/alert_triggered.png
-
 Splunk UI screenshot showing an opened alert result
-
 ### screenshots/btool_output.png
-
 Terminal output of sudo /opt/splunk/bin/splunk btool savedsearches list --debug (or btool ... --debug). Proves which configuration file Splunk actually loaded for the saved search
-
 ### screenshots/permissions_and_owner.png
-
 Terminal output showing file permissions and ownership for savedsearches.conf. Demonstrates Splunk/user permissions and that Splunk has access to the log file.
-
 ### screenshots/savedsearches_conf.png
-
 Cat /opt/splunk/etc/apps/search/local/savedsearches.conf output (the exact savedsearch stanza for the PoC).
-
 ### screenshots/simulator_run.png
-
 Terminal output of the simulator script run; e.g., Simulated 20 failed SSH attempts from 192.0.2.123.
-
 ### screenshots/splunk_events_list.png
-
 Splunk Search - Events view with Failed password events listed from /var/log/auth.log, showing per-event content and source.
-
 ### screenshots/splunk_stats_results.png
-
 Splunk Search - Statistics view showing aggregated row(s) with src_ip, failed_count, first_seen, last_seen. For example, 192.0.2.123 with failed_count = 20.
-
 ### screenshots/tail_authlog.png
-
 Terminal tail of /var/log/auth.log displaying the series of Failed password messages created by the simulator.
-
 ### screenshots/triggered_alerts_page.png
-
 Splunk UI - Triggered Alerts page listing the alert Failed SSH brute-force (PoC) with time and severity.
-
