@@ -10,12 +10,15 @@ Open to remote/hybrid entry-level cybersecurity positions (SOC L1, internships, 
 
 ## What’s inside
 Each project under `projects/` contains:
-- `REPRO.md` - short reproduction steps  
-- `configs/` - config files (sysmon, filebeat, logstash, etc.)  
+
+- `configs/` - configuration files used in the PoC (Sysmon, Splunk UF, Filebeat, Logstash, savedsearches.conf, etc.)
+- `data/` - safe payloads, simulators and helper scripts used to generate test events
+- `logs/` - sample logs or JSON exports used as evidence for the detection
 - `queries/` - detection queries (SPL, KQL, Kibana DSL)  
-- `data/` - anonymized sample logs  
-- `reports/` - 1-page triage/incident reports  
-- `screenshots/` - dashboards / alerts
+- `reports/` - incident summaries, showing what was detected, timeline, key evidence and recommended next steps. 
+- `screenshots/` - screenshots of ingestion, search results, dashboards, and alert triggers
+- `README.md` - project description
+- `REPRO.md` - short, runnable reproduction steps with exact commands
 
 ---
 
