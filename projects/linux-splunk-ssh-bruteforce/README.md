@@ -1,4 +1,4 @@
-# Linux SSH Brute-force Detection - Splunk PoC
+# Linux - SSH Brute-force Detection - Splunk PoC
 
 ## Overview
 This repository is a minimal proof-of-concept (PoC) demonstrating detection of SSH brute-force attempts using Splunk. The project contains the detection SPL query, a saved Splunk alert configuration, a small simulator to generate failed-login events for testing, sample logs and screenshots proving the alert fired.
