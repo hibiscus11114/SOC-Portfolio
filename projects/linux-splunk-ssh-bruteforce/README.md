@@ -12,24 +12,18 @@ This repository is a minimal proof-of-concept (PoC) demonstrating detection of S
 linux-splunk-ssh-bruteforce/
 ├── README.md
 ├── REPRO.md
-├── LICENSE
-│
 ├── configs/
 │ └── savedsearches.conf
-│
 ├── queries/
 │ └── search_spl.txt
-│
 ├── data/
 │ └── simulate_bruteforce.sh
-│
 ├── logs/
 │ ├── raw_auth_tail.log
 │ ├── sample_auth.log
 │ ├── splunk_search_results.json
 │ ├── splunkd_tail.log
 │ └── triggered_alerts.txt
-│
 └── screenshots/
 │ ├── alert_triggered.png
 │ ├── btool_output.png
