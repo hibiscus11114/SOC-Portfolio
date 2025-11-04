@@ -48,11 +48,11 @@ windows-splunk-suspicious-powershell/
 ## Detection queries (queries/*.spl)
 Use these Splunk searches in `queries/`:
 
-### `sysmon_process_create.spl`
+### queries/sysmon_process_create.spl
 Detect Sysmon process create events for PowerShell.
-### `powershell_process_creation.spl`
+### queries/powershell_process_creation.spl
 Detect Windows Security process creation for PowerShell (4688).
-### `suspicious_scriptblock.spl`
+### queries/suspicious_scriptblock.spl
 Detect suspicious PowerShell scriptblocks / commands (4104).
 
 **Notes:**
