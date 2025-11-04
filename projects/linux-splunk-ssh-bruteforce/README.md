@@ -52,7 +52,7 @@ index=linux_auth sourcetype=linux_secure "Failed password"
 | stats count as failed_count earliest(_time) as first_seen latest(_time) as last_seen by src_ip
 | where failed_count >= 5
 ```
-Notes
+**Notes:**
 - Replace index and sourcetype if your ingestion uses different names.
 - Tune failed_count threshold to your environment: 5 is an example for lab/demo.
 
