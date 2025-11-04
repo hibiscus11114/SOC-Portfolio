@@ -10,7 +10,7 @@ Open to remote/hybrid entry-level cybersecurity positions (SOC L1, internships, 
 
 ## What’s inside
 Each project under `projects/` contains:
-- `README.md` - short reproduction steps  
+- `REPRO.md` - short reproduction steps  
 - `configs/` - config files (sysmon, filebeat, logstash, etc.)  
 - `queries/` - detection queries (SPL, KQL, Kibana DSL)  
 - `data/` - anonymized sample logs  
@@ -20,16 +20,9 @@ Each project under `projects/` contains:
 ---
 
 ## Projects
-- [x] **linux-splunk-ssh-bruteforce** - Failed SSH detection (Splunk).  
+- [x] **linux-splunk-ssh-bruteforce** - SSH brute-force detection (Splunk PoC).
+- [x] **windows-splunk-suspicious-powershell** - PowerShell activity detection (Sysmon, WinEvent, Splunk PoC).
 - [ ] **elk-filebeat-pipeline** - Filebeat → Logstash → Kibana pipeline.  
-- [ ] **sysmon-triage** - Windows + Sysmon triage.
-
----
-
-## Quick reproduce (high-level)
-1. Deploy environment (Docker/VM or local Splunk/ELK).  
-2. Load `projects/<name>/configs` and `data`.  
-3. Run search from `projects/<name>/queries`, review `reports/` and `screenshots/`.
 
 ---
 
