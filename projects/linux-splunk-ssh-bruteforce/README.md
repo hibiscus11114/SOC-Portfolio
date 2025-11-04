@@ -46,7 +46,7 @@ linux-splunk-ssh-bruteforce/
 ## Detection queries (queries/failed_ssh.spl)
 Use this search in Splunk (or save it as `queries/failed_ssh.spl`):
 
-```spl
+```
 index=linux_auth sourcetype=linux_secure "Failed password"
 | rex "Failed password for (?:invalid user )?(?<user>\S+) from (?<src_ip>\d{1,3}(?:\.\d{1,3}){3}) port (?<port>\d+)"
 | stats count as failed_count earliest(_time) as first_seen latest(_time) as last_seen by src_ip
