@@ -1,0 +1,5 @@
+﻿index=windows sourcetype="WinEventLog:Security" EventCode=4688
+| eval cmd=coalesce(CommandLine, Message)
+| where like(lower(cmd), "%powershell%") AND match(lower(cmd), "encodedcommand|invoke-expression|payload")
+| table _time, host, user, cmd
+| sort - _time

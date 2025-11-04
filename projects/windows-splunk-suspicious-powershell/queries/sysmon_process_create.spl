@@ -1,0 +1,6 @@
+﻿index=windows source="WinEventLog:Microsoft-Windows-Sysmon/Operational" EventCode=1
+| where like(lower(Image), "%powershell%")
+  AND NOT like(lower(ParentImage), "%splunk%")
+  AND NOT like(lower(CommandLine), "%splunk%")
+| table _time, host, User, Image, CommandLine, ParentImage, ParentCommandLine
+| sort - _time

@@ -1,0 +1,11 @@
+﻿index=windows sourcetype="WinEventLog:Microsoft-Windows-PowerShell/Operational" EventCode=4104
+| eval script=coalesce(ScriptBlockText, Message, _raw)
+| eval s=lower(replace(script,"\r?\n"," "))
+| where match(s, "invoke-expression|iex|encodedcommand|downloadstring|new-object net\.webclient|iwr|wget")
+  AND NOT match(s, "^\s*function\s+[a-z0-9_]+\s*\{")
+  AND NOT like(s, "%export-modulemember%")                  
+  AND NOT like(s, "%helpuri='%")                        
+  AND NOT like(lower(Path), "%\modules\microsoft.powershell%")
+| rex field=s max_match=1 "(?<hit>.{0,60}(invoke-expression|iex|encodedcommand|downloadstring|net\.webclient).{0,60})"
+| table _time, host, user, Path, hit
+| sort - _time
